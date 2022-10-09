@@ -1,0 +1,5388 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Zlatko Popov <zlatkopopov@fsa-bg.org>, 2006, 2007, 2008.
+# Yasen Pramatarov <yasen@lindeas.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kget\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-06-28 00:18+0000\n"
+"PO-Revision-Date: 2011-07-22 23:33+0300\n"
+"Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: conf/autopastemodel.cpp:174
+#, kde-format
+msgid "Pattern"
+msgstr "Шаблон"
+
+#: conf/autopastemodel.cpp:176
+#, kde-format
+msgid "Syntax"
+msgstr "Синтаксис"
+
+#: conf/autopastemodel.cpp:209 conf/integrationpreferences.cpp:38
+#, kde-format
+msgid "Escape sequences"
+msgstr ""
+
+#: conf/autopastemodel.cpp:209 conf/integrationpreferences.cpp:39
+#, kde-format
+msgid "Regular expression"
+msgstr "Регулярен израз"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableSystemTray)
+#: conf/dlgadvanced.ui:17
+#, kde-format
+msgid "Enable system tray icon"
+msgstr "Икона в системния панел"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AfterFinishActionEnabled)
+#: conf/dlgadvanced.ui:26
+#, kde-format
+msgid "Execute action after all downloads have been finished:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_AfterFinishAction)
+#: conf/dlgadvanced.ui:34 mainwindow.cpp:365 ui/droptarget.cpp:91
+#, kde-format
+msgid "Quit KGet"
+msgstr "Изход от KGet"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/dlgadvanced.ui:42
+#, kde-format
+msgid "At startup:"
+msgstr "При зареждане:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
+#: conf/dlgadvanced.ui:50
+#, kde-format
+msgid "Restore Download State"
+msgstr "Възстановяване състоянията на изтеглянията"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
+#: conf/dlgadvanced.ui:55
+#, kde-format
+msgid "Start All Downloads"
+msgstr "Започване на всички изтегляния"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_StartupAction)
+#: conf/dlgadvanced.ui:60
+#, kde-format
+msgid "Stop All Downloads"
+msgstr "Спиране на всички изтегляния"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/dlgadvanced.ui:71
+#, kde-format
+msgid "History backend:"
+msgstr "Ядро на историята:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_EnableKUIServerIntegration)
+#: conf/dlgadvanced.ui:80
+#, kde-format
+msgid "Enable KDE Global Progress Tracking"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExportSingleTransfer)
+#: conf/dlgadvanced.ui:92
+#, kde-format
+msgid "Show every single download "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_ExportGlobalJob)
+#: conf/dlgadvanced.ui:99
+#, kde-format
+msgid "Show overall progress"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: conf/dlgadvanced.ui:109
+#, kde-format
+msgid "Handle existing Files/Transfers"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_FilesAlwaysAsk)
+#: conf/dlgadvanced.ui:115
+#, kde-format
+msgid "Always ask"
+msgstr "Питане винаги"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_FilesAutomaticRename)
+#: conf/dlgadvanced.ui:122
+#, kde-format
+msgid "Automatic rename"
+msgstr "Автоматично преименуване"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_FilesOverwrite)
+#: conf/dlgadvanced.ui:129
+#, kde-format
+msgid "Overwrite"
+msgstr "Презаписване"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_ShowDropTarget)
+#: conf/dlgappearance.ui:17
+#, fuzzy, kde-format
+#| msgid "Drop Target"
+msgid "Use Drop Target"
+msgstr "Кошница за пускане"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AnimateDropTarget)
+#: conf/dlgappearance.ui:29
+#, kde-format
+msgid "Enable animations"
+msgstr "Включване на анимации"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DirectoriesAsSuggestion)
+#: conf/dlggroups.ui:17
+#, kde-format
+msgid "Use default folders for groups as suggestion"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AskForDestination)
+#: conf/dlggroups.ui:24
+#, kde-format
+msgid "Ask for destination if there are no default folders"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, rename)
+#: conf/dlggroups.ui:52 ui/transfersettingsdialog.ui:152
+#, kde-format
+msgid "Rename"
+msgstr "Преименуване"
+
+#. i18n: ectx: property (text), widget (KIconButton, selectIcon)
+#: conf/dlggroups.ui:65
+#, kde-format
+msgid "Select Icon..."
+msgstr "Избор на икона..."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KonquerorIntegration)
+#: conf/dlgintegration.ui:17
+#, fuzzy, kde-format
+#| msgid "An advanced download manager for KDE"
+msgid "Use as download manager for Konqueror"
+msgstr "Изтегляне на файлове"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_AutoPaste)
+#: conf/dlgintegration.ui:24
+#, kde-format
+msgid "Monitor Clipboard for Files to Download"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: conf/dlgintegration.ui:36
+#, fuzzy, kde-format
+#| msgid "Case insensitive:"
+msgid "Case sensitive:"
+msgstr "Чувствителен регистър:"
+
+#. i18n: ectx: property (text), widget (QPushButton, increase)
+#: conf/dlgintegration.ui:93 conf/verificationpreferences.cpp:34
+#, fuzzy, kde-format
+#| msgid "Increase Priority"
+msgid "&Increase Priority"
+msgstr "Увеличаване на приоритета"
+
+#. i18n: ectx: property (text), widget (QPushButton, decrease)
+#: conf/dlgintegration.ui:100 conf/verificationpreferences.cpp:35
+#, fuzzy, kde-format
+#| msgid "Decrease Priority"
+msgid "&Decrease Priority"
+msgstr "Намаляване на приоритета"
+
+#. i18n: ectx: property (text), widget (QLabel, lbl_maxnum)
+#: conf/dlgnetwork.ui:19
+#, fuzzy, kde-format
+#| msgid "Maximum download speed:"
+msgid "Maximum downloads per group:"
+msgstr "Максимална скорост на изтегляне:"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_MaxConnections)
+#: conf/dlgnetwork.ui:26
+#, fuzzy, kde-format
+#| msgid "No Limit"
+msgctxt "no limit for maximum downloads has been set"
+msgid "No limit"
+msgstr "Без ограничение"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_SpeedLimit)
+#: conf/dlgnetwork.ui:35
+#, kde-format
+msgid "Speed Limit"
+msgstr "Ограничение по скорост"
+
+#. i18n: ectx: property (text), widget (QLabel, dllimitlb)
+#: conf/dlgnetwork.ui:44
+#, fuzzy, kde-format
+#| msgid "Global download limit:"
+msgid "Global &download limit:"
+msgstr "Общо ограничение за изтегляне:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GlobalDownloadLimit)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GlobalUploadLimit)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TransferSpeedLimit)
+#. i18n: ectx: property (suffix), widget (QSpinBox, downloadBox)
+#. i18n: ectx: property (suffix), widget (QSpinBox, uploadBox)
+#. i18n: ectx: property (suffix), widget (QSpinBox, uploadSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, downloadSpin)
+#: conf/dlgnetwork.ui:54 conf/dlgnetwork.ui:80 conf/dlgnetwork.ui:103
+#: ui/groupsettingsdialog.ui:90 ui/groupsettingsdialog.ui:109
+#: ui/transfersettingsdialog.ui:54 ui/transfersettingsdialog.ui:70
+#, kde-format
+msgid " KiB/s"
+msgstr " KiB/сек "
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: conf/dlgnetwork.ui:70
+#, fuzzy, kde-format
+#| msgid "Global upload limit:"
+msgid "Global &upload limit:"
+msgstr "Общо ограничение за качване:"
+
+#. i18n: ectx: property (text), widget (QLabel, lb_per_transfer)
+#: conf/dlgnetwork.ui:96
+#, fuzzy, kde-format
+#| msgid "Retry after:"
+msgid "Per transfer:"
+msgstr "Възобновяване след:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_ReconnectOnBroken)
+#: conf/dlgnetwork.ui:119
+#, kde-format
+msgid "Reconnect on Broken Connection"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lb_retries_2)
+#: conf/dlgnetwork.ui:128
+#, kde-format
+msgid "Number of retries:"
+msgstr "Брой опити:"
+
+#. i18n: ectx: property (text), widget (QLabel, lb_after_2)
+#: conf/dlgnetwork.ui:142
+#, kde-format
+msgid "Retry after:"
+msgstr "Възобновяване след:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ReconnectDelay)
+#: conf/dlgnetwork.ui:149
+#, kde-format
+msgid " sec"
+msgstr " сек"
+
+#: conf/dlgwebinterface.cpp:44 conf/dlgwebinterface.cpp:59
+#, kde-format
+msgid "Could not open KWallet"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_WebinterfaceEnabled)
+#: conf/dlgwebinterface.ui:20
+#, kde-format
+msgid "Enable Web Interface"
+msgstr "Включване на уеб-интерфейса"
+
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: conf/dlgwebinterface.ui:32
+#: transfer-plugins/bittorrent/btsettingswidget.ui:32
+#, kde-format
+msgid "Port:"
+msgstr "Порт:"
+
+#. i18n: ectx: property (text), widget (QLabel, userLabel)
+#: conf/dlgwebinterface.ui:46
+#, kde-format
+msgid "User:"
+msgstr "Потребител:"
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: conf/dlgwebinterface.ui:60
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:87
+#, kde-format
+msgid "Password:"
+msgstr "Парола:"
+
+#: conf/integrationpreferences.cpp:35
+#, kde-format
+msgid "Include"
+msgstr "Включване"
+
+#: conf/integrationpreferences.cpp:36
+#, kde-format
+msgid "Exclude"
+msgstr "Изключване"
+
+#. i18n: ectx: label, entry (HistoryColumnWidths), group (Geometry)
+#: conf/kget.kcfg:176
+#, kde-format
+msgid "The width of the columns in the history view"
+msgstr ""
+
+#: conf/pluginselector.cpp:25 conf/preferencesdialog.cpp:78
+#, kde-format
+msgid "Plugins"
+msgstr "Приставки"
+
+#: conf/preferencesdialog.cpp:52
+#, kde-format
+msgid "Xml"
+msgstr "Xml"
+
+#: conf/preferencesdialog.cpp:54
+#, kde-format
+msgid "Sqlite"
+msgstr "Sqlite"
+
+#: conf/preferencesdialog.cpp:58 mainwindow.cpp:371
+#, kde-format
+msgid "Turn Off Computer"
+msgstr "Изключване на компютъра"
+
+#: conf/preferencesdialog.cpp:59 mainwindow.cpp:376
+#, kde-format
+msgid "Hibernate Computer"
+msgstr "Дълбоко приспиване"
+
+#: conf/preferencesdialog.cpp:60 mainwindow.cpp:381
+#, kde-format
+msgid "Suspend Computer"
+msgstr "Приспиване в паметта"
+
+#: conf/preferencesdialog.cpp:71
+#, kde-format
+msgid "Appearance"
+msgstr "Външен вид"
+
+#: conf/preferencesdialog.cpp:71
+#, kde-format
+msgid "Change appearance settings"
+msgstr "Промяна на външния вид"
+
+#: conf/preferencesdialog.cpp:72
+#, kde-format
+msgid "Groups"
+msgstr "Групи"
+
+#: conf/preferencesdialog.cpp:72
+#, kde-format
+msgid "Manage the groups"
+msgstr "Управление на групите"
+
+#. i18n: ectx: property (title), widget (QGroupBox, networkGroupBox)
+#: conf/preferencesdialog.cpp:73
+#: transfer-plugins/bittorrent/btsettingswidget.ui:23
+#, kde-format
+msgid "Network"
+msgstr "Мрежа"
+
+#: conf/preferencesdialog.cpp:73
+#, kde-format
+msgid "Network and Downloads"
+msgstr "Мрежа и изтегляния"
+
+#: conf/preferencesdialog.cpp:74
+#, kde-format
+msgid "Web Interface"
+msgstr "Уеб-интерфейс"
+
+#: conf/preferencesdialog.cpp:74
+#, kde-format
+msgid "Control KGet over a Network or the Internet"
+msgstr ""
+
+#: conf/preferencesdialog.cpp:75
+#, kde-format
+msgid "Verification"
+msgstr "Проверка"
+
+#: conf/preferencesdialog.cpp:76
+#, kde-format
+msgctxt "integration of KGet with other applications"
+msgid "Integration"
+msgstr "Интеграция"
+
+#: conf/preferencesdialog.cpp:77
+#, kde-format
+msgctxt "Advanced Options"
+msgid "Advanced"
+msgstr "Допълнителни"
+
+#: conf/preferencesdialog.cpp:77
+#, kde-format
+msgid "Advanced Options"
+msgstr "Допълнителни настройки"
+
+#: conf/preferencesdialog.cpp:78
+#, kde-format
+msgid "Transfer Plugins"
+msgstr ""
+
+#: conf/transfersgrouptree.cpp:113 conf/transfersgrouptree.cpp:118
+#, kde-format
+msgid "New Group"
+msgstr "Нова група"
+
+#. i18n: ectx: property (title), widget (QGroupBox, kcfg_ChecksumAutomaticVerification)
+#: conf/verificationpreferences.ui:17
+#, fuzzy, kde-format
+#| msgid "Automatic verification"
+msgid "Automatic checksums verification"
+msgstr "Автоматична проверка"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: conf/verificationpreferences.ui:32
+#, kde-format
+msgid "Used checksum:"
+msgstr "Използвана контролна сума:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_4)
+#: conf/verificationpreferences.ui:51
+#, kde-format
+msgid "Weak (fastest)"
+msgstr "Слаба (най-бърза)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_5)
+#: conf/verificationpreferences.ui:61
+#, kde-format
+msgid "Strong (recommended)"
+msgstr "Силна (препоръчителна)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_6)
+#: conf/verificationpreferences.ui:71
+#, kde-format
+msgid "Strongest (slowest)"
+msgstr "Най-силна (най-бавна)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, signatureGroup)
+#. i18n: ectx: property (title), widget (QGroupBox, sigGroup)
+#. i18n: ectx: property (text), widget (QPushButton, signature)
+#: conf/verificationpreferences.ui:87 ui/signaturedlg.ui:20
+#: ui/transfersettingsdialog.ui:172
+#, kde-format
+msgid "Signature"
+msgstr "Подпис"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SignatureAutomaticVerification)
+#: conf/verificationpreferences.ui:93
+#, kde-format
+msgid "Automatic verification"
+msgstr "Автоматична проверка"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SignatureAutomaticDownloading)
+#: conf/verificationpreferences.ui:100
+#, kde-format
+msgid "Automatic downloading of missing keys"
+msgstr "Автоматично изтегляне на липсващи ключове"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: conf/verificationpreferences.ui:123
+#, kde-format
+msgid "Keyservers:"
+msgstr "Сървъри с ключове:"
+
+#: core/datasourcefactory.cpp:279 core/datasourcefactory.cpp:624
+#: core/kget.cpp:1390 transfer-plugins/metalink/metalink.cpp:200
+#: transfer-plugins/metalink/metalinkhttp.cpp:242
+#: transfer-plugins/metalink/metalinkxml.cpp:199
+#: ui/metalinkcreator/metalinkcreator.cpp:149
+#: ui/metalinkcreator/metalinkcreator.cpp:166
+#, kde-format
+msgid "Error"
+msgstr "Грешка"
+
+#: core/datasourcefactory.cpp:279
+#, kde-format
+msgid "Filesize is larger than maximum file size supported by VFAT."
+msgstr ""
+
+#: core/datasourcefactory.cpp:624
+#, kde-format
+msgctxt "A mirror is removed when the file has the wrong download size"
+msgid "%1 removed as it did report a wrong file size."
+msgstr ""
+
+#: core/filemodel.cpp:283
+#, kde-format
+msgctxt "file in a filesystem"
+msgid "File"
+msgstr "Файл"
+
+#: core/filemodel.cpp:283
+#, kde-format
+msgctxt "status of the download"
+msgid "Status"
+msgstr "Състояние"
+
+#: core/filemodel.cpp:283
+#, kde-format
+msgctxt "size of the download"
+msgid "Size"
+msgstr "Големина"
+
+#: core/filemodel.cpp:283
+#, kde-format
+msgctxt "checksum of a file"
+msgid "Checksum"
+msgstr "Контролна сума"
+
+#: core/filemodel.cpp:283
+#, kde-format
+msgctxt "signature of a file"
+msgid "Signature"
+msgstr "Подпис"
+
+#: core/keydownloader.cpp:74
+#, kde-format
+msgid ""
+"No server for downloading keys is specified in settings. Downloading aborted."
+msgstr ""
+
+#: core/keydownloader.cpp:75 core/keydownloader.cpp:95
+#, kde-format
+msgid "No key server"
+msgstr ""
+
+#: core/keydownloader.cpp:94
+#, kde-format
+msgid ""
+"No useful key server found, key not downloaded. Add more servers to the "
+"settings or restart KGet and retry downloading."
+msgstr ""
+
+#: core/kget.cpp:121
+#, kde-format
+msgid "Are you sure that you want to remove the group named %1?"
+msgstr ""
+
+#: core/kget.cpp:122
+#, kde-format
+msgid "Remove Group"
+msgstr "Премахване на група"
+
+#: core/kget.cpp:146
+#, kde-format
+msgid "Are you sure that you want to remove the following groups?"
+msgstr ""
+
+#: core/kget.cpp:148
+#, kde-format
+msgid "Remove groups"
+msgstr "Премахване на групи"
+
+#: core/kget.cpp:254
+#, kde-format
+msgid ""
+"<p>The following transfer has been added to the download list:</p><p style="
+"\"font-size: small;\">%1</p>"
+msgstr ""
+
+#: core/kget.cpp:255 core/kget.cpp:352
+#, kde-format
+msgid "Download added"
+msgstr "Добавено е изтегляне"
+
+#: core/kget.cpp:347
+#, kde-format
+msgid "<p>The following transfer has been added to the download list:</p>"
+msgstr ""
+
+#: core/kget.cpp:349
+#, kde-format
+msgid "<p>The following transfers have been added to the download list:</p>"
+msgstr ""
+
+#: core/kget.cpp:517 core/kget.cpp:566
+#, kde-format
+msgid "My Downloads"
+msgstr "Моите изтегляния"
+
+#: core/kget.cpp:576
+#, kde-format
+msgid ""
+"The file %1 already exists.\n"
+"Overwrite?"
+msgstr ""
+"Файлът \"%1\" вече съществува.\n"
+"Да се презапише ли?"
+
+#: core/kget.cpp:577
+#, kde-format
+msgid "Overwrite existing file?"
+msgstr "Да се презапише ли съществуващият файл?"
+
+#: core/kget.cpp:598 ui/metalinkcreator/metalinkcreator.cpp:166
+#, kde-format
+msgid "Unable to save to: %1"
+msgstr ""
+
+#: core/kget.cpp:901
+#, kde-format
+msgid ""
+"<p>The following URL cannot be downloaded, its protocol is not supported by "
+"KGet:</p>"
+msgid_plural ""
+"<p>The following URLs cannot be downloaded, their protocols are not "
+"supported by KGet:</p>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/kget.cpp:911
+#, kde-format
+msgid "Protocol unsupported"
+msgstr "Неподдържан протокол"
+
+#: core/kget.cpp:965 ui/newtransferdialog.cpp:53
+#, kde-format
+msgid "New Download"
+msgstr "Ново изтегляне"
+
+#: core/kget.cpp:965
+#, kde-format
+msgid "Enter URL:"
+msgstr "Въведете адрес:"
+
+#: core/kget.cpp:985
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Directory"
+msgstr ""
+
+#: core/kget.cpp:1004
+#, fuzzy, kde-format
+#| msgid "Save As"
+msgctxt "@title:window"
+msgid "Save As"
+msgstr "Запис като"
+
+#: core/kget.cpp:1017 core/urlchecker.cpp:366
+#, kde-format
+msgid ""
+"Malformed URL:\n"
+"%1"
+msgstr ""
+"Неправилен адрес:\n"
+"%1"
+
+#: core/kget.cpp:1024 core/urlchecker.cpp:368
+#, kde-format
+msgid ""
+"Malformed URL, protocol missing:\n"
+"%1"
+msgstr ""
+"Неправилен адрес, липсва протокол:\n"
+"%1"
+
+#: core/kget.cpp:1035 core/urlchecker.cpp:424
+#, kde-format
+msgid ""
+"You have already completed a download from the location: \n"
+"\n"
+"%1\n"
+"\n"
+"Download it again?"
+msgstr ""
+
+#: core/kget.cpp:1036 core/urlchecker.cpp:641
+#, kde-format
+msgid "Download it again?"
+msgstr "Да се свали ли отново?"
+
+#: core/kget.cpp:1048 core/urlchecker.cpp:426
+#, kde-format
+msgid ""
+"You have a download in progress from the location: \n"
+"\n"
+"%1\n"
+"\n"
+"Delete it and download again?"
+msgstr ""
+
+#: core/kget.cpp:1049 core/urlchecker.cpp:638
+#, kde-format
+msgid "Delete it and download again?"
+msgstr "Да се изтрие ли и свали отново?"
+
+#: core/kget.cpp:1072 core/kget.cpp:1079
+#, kde-format
+msgid "Directory is not writable"
+msgstr "Нямате права за запис в тази директория"
+
+#: core/kget.cpp:1107
+#, kde-format
+msgid ""
+"You have already downloaded that file from another location.\n"
+"\n"
+"Download and delete the previous one?"
+msgstr ""
+
+#: core/kget.cpp:1108 core/urlchecker.cpp:650
+#, kde-format
+msgid "File already downloaded. Download anyway?"
+msgstr "Файлът вече е изтеглен. Да се изтегли ли въпреки това?"
+
+#: core/kget.cpp:1117
+#, kde-format
+msgid "You are already downloading the same file"
+msgstr "Вече сваляте същия файл"
+
+#: core/kget.cpp:1121 core/kget.cpp:1124 core/urlchecker.cpp:653
+#: core/urlchecker.cpp:735 transfer-plugins/metalink/abstractmetalink.cpp:481
+#: transfer-plugins/metalink/metalink.cpp:717
+#, kde-format
+msgid "File already exists"
+msgstr "Файлът вече съществува"
+
+#: core/kget.cpp:1228
+#, kde-format
+msgid "Internet connection established, resuming transfers."
+msgstr ""
+
+#: core/kget.cpp:1233
+#, kde-format
+msgid "No internet connection, stopping transfers."
+msgstr ""
+
+#: core/kget.cpp:1246
+#, kde-format
+msgid "Plugin loader could not load the plugin: %1."
+msgstr ""
+
+#: core/kget.cpp:1261
+#, kde-format
+msgid ""
+"Not deleting\n"
+"%1\n"
+"as it is a directory."
+msgstr ""
+"Елементът\n"
+"%1\n"
+"не е изтрит, понеже е директория."
+
+#: core/kget.cpp:1272
+#, kde-format
+msgid ""
+"Not deleting\n"
+"%1\n"
+"as it is not a local file."
+msgstr "Елементът %1 не е изтрит, понеже не е локален файл."
+
+#: core/kget.cpp:1383
+#, kde-format
+msgid ""
+"<p>The following file has finished downloading:</p><p style=\"font-size: "
+"small;\">%1</p>"
+msgstr ""
+
+#: core/kget.cpp:1384
+#, kde-format
+msgid "Download completed"
+msgstr "Изтеглянето завърши"
+
+#: core/kget.cpp:1387
+#, kde-format
+msgid ""
+"<p>The following transfer has been started:</p><p style=\"font-size: small;"
+"\">%1</p>"
+msgstr ""
+
+#: core/kget.cpp:1388
+#, kde-format
+msgid "Download started"
+msgstr "Изтеглянето започна"
+
+#: core/kget.cpp:1390
+#, kde-format
+msgid ""
+"<p>There has been an error in the following transfer:</p><p style=\"font-"
+"size: small;\">%1</p><p>The error message is:</p><p style=\"font-size: small;"
+"\">%2</p>"
+msgstr ""
+
+#: core/kget.cpp:1395
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Remove"
+msgid "Resolve"
+msgstr "Премахване"
+
+#: core/kget.cpp:1447
+#, fuzzy, kde-format
+#| msgid "KGet quits now because all downloads have been completed."
+msgid "KGet is now closing, as all downloads have completed."
+msgstr "Изтеглянето на файловете завърши."
+
+#: core/kget.cpp:1451
+#, fuzzy, kde-format
+#| msgid ""
+#| "The computer will turn off now because all downloads have been completed."
+msgid "The computer will now turn off, as all downloads have completed."
+msgstr "Изтеглянето на всички файлове завърши. Компютърът ще бъде изключен."
+
+#: core/kget.cpp:1451
+#, kde-format
+msgctxt "Shutting down computer"
+msgid "Shutdown"
+msgstr "Изключване"
+
+#: core/kget.cpp:1454
+#, fuzzy, kde-format
+#| msgid ""
+#| "The computer will turn off now because all downloads have been completed."
+msgid "The computer will now suspend to disk, as all downloads have completed."
+msgstr "Изтеглянето на всички файлове завърши. Компютърът ще бъде изключен."
+
+#: core/kget.cpp:1454
+#, kde-format
+msgctxt "Hibernating computer"
+msgid "Hibernating"
+msgstr "Приспиване"
+
+#: core/kget.cpp:1457
+#, fuzzy, kde-format
+#| msgid ""
+#| "The computer will turn off now because all downloads have been completed."
+msgid "The computer will now suspend to RAM, as all downloads have completed."
+msgstr "Изтеглянето на всички файлове завърши. Компютърът ще бъде изключен."
+
+#: core/kget.cpp:1457
+#, kde-format
+msgctxt "Suspending computer"
+msgid "Suspending"
+msgstr "Дълбоко приспиване"
+
+#: core/kget.cpp:1465
+#, kde-format
+msgctxt "abort the proposed action"
+msgid "Abort"
+msgstr "Прекъсване"
+
+#: core/kget.cpp:1475
+#, kde-format
+msgid "<p>All transfers have been finished.</p>"
+msgstr ""
+
+#: core/kget.cpp:1476
+#, kde-format
+msgid "Downloads completed"
+msgstr "Изтеглянията завършиха"
+
+#: core/kget.h:366 main.cpp:103 mainwindow.cpp:96 mainwindow.cpp:527
+#: ui/tray.cpp:44
+#, kde-format
+msgid "KGet"
+msgstr "KGet"
+
+#: core/kgetglobaljob.cpp:57
+#, kde-format
+msgid "KGet is downloading %1 file"
+msgid_plural "KGet is downloading %1 files"
+msgstr[0] "KGet изтегля %1 файл"
+msgstr[1] "KGet изтегля %1 файла"
+
+#: core/kgetkjobadapter.cpp:47
+#, fuzzy, kde-format
+#| msgid "Retry after:"
+msgid "KGet Transfer"
+msgstr "Възобновяване след:"
+
+#: core/linkimporter.cpp:83
+#, kde-format
+msgid "Error trying to get %1"
+msgstr ""
+
+#: core/signature.cpp:230
+#, kde-format
+msgid "The key to verify the signature is missing, do you want to download it?"
+msgstr ""
+
+#: core/signature.cpp:252
+#, kde-format
+msgid ""
+"The signature could not be verified for %1. See transfer settings for more "
+"information."
+msgstr ""
+
+#: core/signature.cpp:253
+#, kde-format
+msgid "Signature not verified"
+msgstr "Подписът не е проверен"
+
+#: core/transfer.cpp:33
+#, kde-format
+msgid "Downloading...."
+msgstr "Изтегляне...."
+
+#: core/transfer.cpp:34
+#, kde-format
+msgctxt "transfer state: delayed"
+msgid "Delayed"
+msgstr "Задържано"
+
+#: core/transfer.cpp:35 core/transfer.cpp:234 core/transfer.cpp:253
+#: transfer-plugins/bittorrent/bttransfer.cpp:309
+#: transfer-plugins/contentfetch/contentfetch.cpp:69
+#: transfer-plugins/mmsthreads/mmstransfer.cpp:95
+#, kde-format
+msgctxt "transfer state: stopped"
+msgid "Stopped"
+msgstr "Спряно"
+
+#: core/transfer.cpp:36
+#, kde-format
+msgctxt "transfer state: aborted"
+msgid "Aborted"
+msgstr "Прекъснато"
+
+#: core/transfer.cpp:37 transfer-plugins/bittorrent/bttransfer.cpp:226
+#: transfer-plugins/bittorrent/bttransfer.cpp:305
+#, kde-format
+msgctxt "transfer state: finished"
+msgid "Finished"
+msgstr "Готово"
+
+#: core/transfer.cpp:39 transfer-plugins/bittorrent/bttransfer.cpp:170
+#, fuzzy, kde-format
+#| msgid "Destination"
+msgctxt "changing the destination of the file"
+msgid "Changing destination"
+msgstr "Назначение"
+
+#: core/transfergrouphandler.cpp:96
+#, kde-format
+msgid "1 Item"
+msgid_plural "%1 Items"
+msgstr[0] "1 обект"
+msgstr[1] "%1 обекта"
+
+#: core/transfergrouphandler.cpp:112 core/transferhandler.cpp:150
+#: ui/transferdetails.cpp:92
+#, kde-format
+msgid "%1/s"
+msgstr "%1/сек"
+
+#: core/transfergrouphandler.cpp:168
+#, kde-format
+msgctxt "start transfergroup downloads"
+msgid "Start"
+msgstr "Начало"
+
+#: core/transfergrouphandler.cpp:174
+#, kde-format
+msgctxt "stop transfergroup downloads"
+msgid "Stop"
+msgstr "Спиране"
+
+#: core/transferhandler.cpp:137
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:29
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:30
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:31
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:32
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:33
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:34
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:35
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:36
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:61
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:62
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:65
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:66
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:69
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:72
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:75
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:78
+#: ui/transfersviewdelegate.cpp:395
+#, kde-format
+msgctxt "not available"
+msgid "n/a"
+msgstr "липсва"
+
+#: core/transferhandler.cpp:145 ui/transferdetails.cpp:88
+#, kde-format
+msgid "Stalled"
+msgstr "Застой"
+
+#: core/transfertreemodel.cpp:648
+#, kde-format
+msgctxt "name of download"
+msgid "Name"
+msgstr "Име"
+
+#: core/transfertreemodel.cpp:650
+#, kde-format
+msgctxt "status of download"
+msgid "Status"
+msgstr "Състояние"
+
+#: core/transfertreemodel.cpp:652
+#, kde-format
+msgctxt "size of download"
+msgid "Size"
+msgstr "Големина"
+
+#: core/transfertreemodel.cpp:654
+#, kde-format
+msgctxt "progress of download"
+msgid "Progress"
+msgstr "Напредък"
+
+#: core/transfertreemodel.cpp:656
+#, kde-format
+msgctxt "speed of download"
+msgid "Speed"
+msgstr "Скорост"
+
+#: core/transfertreemodel.cpp:658
+#, kde-format
+msgctxt "remaining time of download"
+msgid "Remaining Time"
+msgstr "Оставащо време"
+
+#: core/urlchecker.cpp:51
+#, kde-format
+msgid "Question"
+msgstr "Въпрос"
+
+#: core/urlchecker.cpp:61
+#, kde-format
+msgid "Appl&y to all"
+msgstr ""
+
+#: core/urlchecker.cpp:300 core/urlchecker.cpp:340
+#, kde-format
+msgid "No download directory specified."
+msgstr ""
+
+#: core/urlchecker.cpp:302
+#, kde-format
+msgid "Invalid download directory specified."
+msgstr ""
+
+#: core/urlchecker.cpp:304
+#, fuzzy, kde-format
+#| msgid "Directory is not writable"
+msgid "Download directory is not writeable."
+msgstr "Нямате права за запис в тази директория"
+
+#: core/urlchecker.cpp:312 core/urlchecker.cpp:352
+#, fuzzy, kde-format
+#| msgid "Destination:"
+msgid "No download destination specified."
+msgstr "Назначение:"
+
+#: core/urlchecker.cpp:314
+#, fuzzy, kde-format
+#| msgid "Destination:"
+msgid "Invalid download destination specified."
+msgstr "Назначение:"
+
+#: core/urlchecker.cpp:316
+#, fuzzy, kde-format
+#| msgid "Destination:"
+msgid "Download destination is not writeable."
+msgstr "Назначение:"
+
+#: core/urlchecker.cpp:324 core/urlchecker.cpp:364 core/urlchecker.cpp:454
+#: core/urlchecker.cpp:468
+#, kde-format
+msgid "No URL specified."
+msgstr ""
+
+#: core/urlchecker.cpp:326
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:96
+#: transfer-plugins/bittorrent/bttransfer.cpp:267
+#, kde-format
+msgid "Malformed URL."
+msgstr "Неправилен URL-адрес."
+
+#: core/urlchecker.cpp:328
+#, kde-format
+msgid "Malformed URL, protocol missing."
+msgstr "Неправилен адрес, липсва протокол."
+
+#: core/urlchecker.cpp:330
+#, kde-format
+msgid "Malformed URL, host missing."
+msgstr "Неправилен адрес, липсва хост."
+
+#: core/urlchecker.cpp:342
+#, kde-format
+msgid ""
+"Invalid download directory specified:\n"
+"%1"
+msgstr ""
+
+#: core/urlchecker.cpp:344
+#, fuzzy, kde-format
+#| msgid "Directory is not writable"
+msgid ""
+"Download directory is not writeable:\n"
+"%1"
+msgstr "Нямате права за запис в тази директория"
+
+#: core/urlchecker.cpp:354
+#, fuzzy, kde-format
+#| msgid "Destination:"
+msgid ""
+"Invalid download destination specified:\n"
+"%1"
+msgstr "Назначение:"
+
+#: core/urlchecker.cpp:356
+#, fuzzy, kde-format
+#| msgid "Destination:"
+msgid ""
+"Download destination is not writeable:\n"
+"%1"
+msgstr "Назначение:"
+
+#: core/urlchecker.cpp:370
+#, kde-format
+msgid ""
+"Malformed URL, host missing:\n"
+"%1"
+msgstr ""
+"Неправилен адрес, липсва хост:\n"
+"%1"
+
+#: core/urlchecker.cpp:386 core/urlchecker.cpp:398
+#, fuzzy, kde-format
+#| msgid ""
+#| "Destination file \n"
+#| "%1\n"
+#| "already exists.\n"
+#| "Do you want to overwrite it?"
+msgid "File already exists. Overwrite it?"
+msgstr ""
+"Вече има файл %1.\n"
+" Искате ли да бъде презаписан?"
+
+#: core/urlchecker.cpp:388 core/urlchecker.cpp:414
+#, kde-format
+msgid ""
+"You have already downloaded that file from another location.\n"
+"Download and delete the previous one?"
+msgstr ""
+
+#: core/urlchecker.cpp:390 core/urlchecker.cpp:416
+#, kde-format
+msgid ""
+"You are already downloading that file from another location.\n"
+"Download and delete the previous one?"
+msgstr ""
+
+#: core/urlchecker.cpp:400
+#, kde-format
+msgid ""
+"You have already completed a download from that location. Download it again?"
+msgstr ""
+
+#: core/urlchecker.cpp:402
+#, kde-format
+msgid ""
+"You have a download in progress from that location.\n"
+"Delete it and download again?"
+msgstr ""
+
+#: core/urlchecker.cpp:412
+#, fuzzy, kde-format
+#| msgid ""
+#| "Destination file \n"
+#| "%1\n"
+#| "already exists.\n"
+#| "Do you want to overwrite it?"
+msgid ""
+"File already exists:\n"
+"%1\n"
+"Overwrite it?"
+msgstr ""
+"Вече има файл %1.\n"
+" Искате ли да бъде презаписан?"
+
+#: core/urlchecker.cpp:456
+#, fuzzy, kde-format
+#| msgid "Malformed URL."
+msgid "Malformed URLs."
+msgstr "Невалиден адрес."
+
+#: core/urlchecker.cpp:458
+#, fuzzy, kde-format
+#| msgid ""
+#| "Malformed URL, protocol missing:\n"
+#| "%1"
+msgid "Malformed URLs, protocol missing."
+msgstr ""
+"Невалиден адрес, липсва протокол:\n"
+"%1"
+
+#: core/urlchecker.cpp:460
+#, fuzzy, kde-format
+#| msgid ""
+#| "Malformed URL, protocol missing:\n"
+#| "%1"
+msgid "Malformed URLs, host missing."
+msgstr ""
+"Невалиден адрес, липсва протокол:\n"
+"%1"
+
+#: core/urlchecker.cpp:470
+#, fuzzy, kde-format
+#| msgid ""
+#| "Malformed URL:\n"
+#| "%1"
+msgid ""
+"Malformed URLs:\n"
+"%1"
+msgstr ""
+"Невалиден адрес:\n"
+"%1"
+
+#: core/urlchecker.cpp:472
+#, fuzzy, kde-format
+#| msgid ""
+#| "Malformed URL, protocol missing:\n"
+#| "%1"
+msgid ""
+"Malformed URLs, protocol missing:\n"
+"%1"
+msgstr ""
+"Невалиден адрес, липсва протокол:\n"
+"%1"
+
+#: core/urlchecker.cpp:474
+#, fuzzy, kde-format
+#| msgid ""
+#| "Malformed URL, protocol missing:\n"
+#| "%1"
+msgid ""
+"Malformed URLs, host missing:\n"
+"%1"
+msgstr ""
+"Невалиден адрес, липсва протокол:\n"
+"%1"
+
+#: core/urlchecker.cpp:476
+#, fuzzy, kde-format
+#| msgid "Directory is not writable"
+msgid ""
+"Destinations are not writable:\n"
+"%1"
+msgstr "Нямате права за запис в тази директория"
+
+#: core/urlchecker.cpp:500
+#, kde-format
+msgid "Files exist already. Overwrite them?"
+msgstr ""
+
+#: core/urlchecker.cpp:502
+#, kde-format
+msgid ""
+"You have already completed downloads at those destinations. Download them "
+"again?"
+msgstr ""
+
+#: core/urlchecker.cpp:504
+#, kde-format
+msgid ""
+"You have downloads in progress to these destinations.\n"
+"Delete them and download again?"
+msgstr ""
+
+#: core/urlchecker.cpp:512
+#, kde-format
+msgid ""
+"You have already completed downloads from these locations. Download them "
+"again?"
+msgstr ""
+
+#: core/urlchecker.cpp:514
+#, kde-format
+msgid ""
+"You have downloads in progress from these locations.\n"
+"Delete them and download again?"
+msgstr ""
+
+#: core/urlchecker.cpp:523
+#, kde-format
+msgid ""
+"Files exist already:\n"
+"%1\n"
+"Overwrite them?"
+msgstr ""
+
+#: core/urlchecker.cpp:525
+#, kde-format
+msgid ""
+"You have already completed downloads at those destinations: \n"
+"\n"
+"%1\n"
+"\n"
+" Download them again?"
+msgstr ""
+
+#: core/urlchecker.cpp:527
+#, kde-format
+msgid ""
+"You have downloads in progress to these destinations: \n"
+"\n"
+"%1\n"
+"\n"
+"Delete them and download again?"
+msgstr ""
+
+#: core/urlchecker.cpp:535
+#, kde-format
+msgid ""
+"You have already completed downloads from these locations: \n"
+"\n"
+"%1\n"
+"\n"
+"Download them again?"
+msgstr ""
+
+#: core/urlchecker.cpp:537
+#, kde-format
+msgid ""
+"You have downloads in progress from these locations: \n"
+"\n"
+"%1\n"
+"\n"
+"Delete them and download again?"
+msgstr ""
+
+#: core/verificationmodel.cpp:152
+#, kde-format
+msgctxt "the type of the hash, e.g. MD5"
+msgid "Type"
+msgstr "Вид"
+
+#: core/verificationmodel.cpp:154
+#, kde-format
+msgctxt "the used hash for verification"
+msgid "Hash"
+msgstr ""
+
+#: core/verificationmodel.cpp:156
+#, kde-format
+msgctxt "verification-result of a file, can be true/false"
+msgid "Verified"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:43
+#: extensions/webinterface/httpserver.cpp:59
+#, kde-format
+msgid "Unable to start WebInterface: Could not open KWallet"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:64
+#, fuzzy, kde-format
+#| msgid "Enable Web Interface"
+msgctxt "@info"
+msgid "Unable to start WebInterface: %1"
+msgstr "Включване на уеб-интерфейса"
+
+#: extensions/webinterface/httpserver.cpp:123
+#, kde-format
+msgctxt "@item speed of transfer per seconds"
+msgid "%1/s"
+msgstr "%1/сек"
+
+#: extensions/webinterface/httpserver.cpp:210
+#, kde-format
+msgctxt "@label"
+msgid "KGet Web Interface"
+msgstr "Уеб-интерфейс на KGet"
+
+#: extensions/webinterface/httpserver.cpp:211
+#, kde-format
+msgctxt "@label number"
+msgid "Nr"
+msgstr "Номер"
+
+#: extensions/webinterface/httpserver.cpp:212
+#, kde-format
+msgctxt "@label"
+msgid "File name"
+msgstr "Име на файл"
+
+#: extensions/webinterface/httpserver.cpp:213
+#, kde-format
+msgctxt "@label Progress of transfer"
+msgid "Finished"
+msgstr "Готово"
+
+#: extensions/webinterface/httpserver.cpp:214
+#, kde-format
+msgctxt "@label Speed of transfer"
+msgid "Speed"
+msgstr "Скорост"
+
+#: extensions/webinterface/httpserver.cpp:215
+#, kde-format
+msgctxt "@label Status of transfer"
+msgid "Status"
+msgstr "Състояние"
+
+#: extensions/webinterface/httpserver.cpp:216
+#, kde-format
+msgctxt "@action:button start a transfer"
+msgid "Start"
+msgstr "Начало"
+
+#: extensions/webinterface/httpserver.cpp:217
+#, kde-format
+msgctxt "@action:button"
+msgid "Stop"
+msgstr "Спиране"
+
+#: extensions/webinterface/httpserver.cpp:218
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Премахване"
+
+#: extensions/webinterface/httpserver.cpp:219
+#, kde-format
+msgctxt "@label Download from"
+msgid "Source:"
+msgstr "Източник:"
+
+#: extensions/webinterface/httpserver.cpp:220
+#, kde-format
+msgctxt "@label Save download to"
+msgid "Saving to:"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:221
+#, kde-format
+msgctxt "@label Title in header"
+msgid "Web Interface"
+msgstr "Уеб-интерфейс"
+
+#: extensions/webinterface/httpserver.cpp:222
+#, kde-format
+msgctxt "@action"
+msgid "Settings"
+msgstr "Настройки"
+
+#: extensions/webinterface/httpserver.cpp:223
+#, kde-format
+msgctxt "@action"
+msgid "Refresh"
+msgstr "Обновяване"
+
+#: extensions/webinterface/httpserver.cpp:224
+#, kde-format
+msgctxt "@action"
+msgid "Enter URL: "
+msgstr "Въведете адрес: "
+
+#: extensions/webinterface/httpserver.cpp:225
+#, kde-format
+msgctxt "@action:button"
+msgid "OK"
+msgstr "Добре"
+
+#: extensions/webinterface/httpserver.cpp:227
+#, kde-format
+msgctxt "@action Refresh download list every x (seconds)"
+msgid "Refresh download list every"
+msgstr ""
+
+#: extensions/webinterface/httpserver.cpp:228
+#, kde-format
+msgctxt "@action (Refresh very x )seconds"
+msgid "seconds"
+msgstr "секунди"
+
+#: extensions/webinterface/httpserver.cpp:229
+#, kde-format
+msgctxt "@action:button"
+msgid "Save Settings"
+msgstr "Запис на настройките"
+
+#: extensions/webinterface/httpserver.cpp:230
+#, kde-format
+msgctxt "@title"
+msgid "Downloads"
+msgstr "Изтегляния"
+
+#: extensions/webinterface/httpserver.cpp:232
+#, kde-format
+msgctxt "@label text in footer"
+msgid "KGet Web Interface | Valid XHTML 1.0 Strict &amp; CSS"
+msgstr ""
+
+#: main.cpp:105
+#, fuzzy, kde-format
+#| msgid "An advanced download manager for KDE"
+msgid "An advanced download manager by KDE"
+msgstr "Изтегляне на файлове"
+
+#: main.cpp:107
+#, fuzzy, kde-format
+#| msgid ""
+#| "(C) 2005 - 2011, The KGet developers\n"
+#| "(C) 2001 - 2002, Patrick Charbonnier\n"
+#| "(C) 2002, Carsten Pfeiffer\n"
+#| "(C) 1998 - 2000, Matej Koss"
+msgid ""
+"(C) 2005 - 2014, The KGet developers\n"
+"(C) 2001 - 2002, Patrick Charbonnier\n"
+"(C) 2002, Carsten Pfeiffer\n"
+"(C) 1998 - 2000, Matej Koss"
+msgstr ""
+"(C) 2005 - 2011, The KGet developers\n"
+"(C) 2001 - 2002, Patrick Charbonnier\n"
+"(C) 2002, Carsten Pfeiffer\n"
+"(C) 1998 - 2000, Matej Koss"
+
+#: main.cpp:111
+#, kde-format
+msgid "<a href=\"mailto:kget@kde.org\">kget@kde.org</a>"
+msgstr "<a href=\"mailto:kget@kde.org\">kget@kde.org</a>"
+
+#: main.cpp:113
+#, kde-format
+msgid "Lukas Appelhans"
+msgstr "Lukas Appelhans"
+
+#: main.cpp:113
+#, kde-format
+msgid "Maintainer, Core Developer, Torrent Plugin Author"
+msgstr "Поддръжка, основна разработка, автор на приставката за торенти"
+
+#: main.cpp:114
+#, kde-format
+msgid "Dario Massarin"
+msgstr "Dario Massarin"
+
+#: main.cpp:114 main.cpp:115 main.cpp:117
+#, kde-format
+msgid "Core Developer"
+msgstr "Основен разработчик"
+
+#: main.cpp:115
+#, kde-format
+msgid "Urs Wolfer"
+msgstr "Urs Wolfer"
+
+#: main.cpp:116
+#, kde-format
+msgid "Manolo Valdes"
+msgstr "Manolo Valdes"
+
+#: main.cpp:116
+#, kde-format
+msgid "Core Developer, Multithreaded Plugin Author"
+msgstr "Основна разработка, автор на приставката за многонишковост"
+
+#: main.cpp:117
+#, kde-format
+msgid "Matthias Fuchs"
+msgstr "Matthias Fuchs"
+
+#: main.cpp:118
+#, kde-format
+msgid "Javier Goday"
+msgstr "Javier Goday"
+
+#: main.cpp:118
+#, kde-format
+msgid "Developer"
+msgstr "Разработчик"
+
+#: main.cpp:119
+#, kde-format
+msgid "Aish Raj Dahal"
+msgstr ""
+
+#: main.cpp:119
+#, kde-format
+msgid "Google Summer of Code Student"
+msgstr ""
+
+#: main.cpp:120
+#, kde-format
+msgid "Ernesto Rodriguez Ortiz"
+msgstr "Ernesto Rodriguez Ortiz"
+
+#: main.cpp:120
+#, kde-format
+msgid "Mms Plugin Author"
+msgstr "Автор на приставката Mms"
+
+#: main.cpp:121
+#, kde-format
+msgid "Patrick Charbonnier"
+msgstr "Patrick Charbonnier"
+
+#: main.cpp:121 main.cpp:122 main.cpp:123
+#, kde-format
+msgid "Former Developer"
+msgstr "Бивш разработчик"
+
+#: main.cpp:122
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#: main.cpp:123
+#, kde-format
+msgid "Matej Koss"
+msgstr "Matej Koss"
+
+#: main.cpp:124
+#, kde-format
+msgid "Joris Guisson"
+msgstr "Joris Guisson"
+
+#: main.cpp:124
+#, kde-format
+msgid "BTCore (KTorrent) Developer"
+msgstr "Разработчик на BTCore (KTorrent)"
+
+#: main.cpp:125
+#, kde-format
+msgid "Mensur Zahirovic (Nookie)"
+msgstr "Mensur Zahirovic (Nookie)"
+
+#: main.cpp:125
+#, kde-format
+msgid "Design of Web Interface"
+msgstr "Дизайн на уеб-интерфейса"
+
+#: main.cpp:127
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Ясен Праматаров,Златко Попов"
+
+#: main.cpp:127
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "yasen@lindeas.com,zlatkopopov@fsa-bg.org"
+
+#: main.cpp:134
+#, kde-format
+msgid "Start KGet with drop target"
+msgstr "Зареждане на KGet с кошница за пускане"
+
+#: main.cpp:135
+#, kde-format
+msgid "Start KGet with hidden main window"
+msgstr "Зареждане на KGet със скрит основен прозорец"
+
+#: main.cpp:136
+#, kde-format
+msgid "Start KGet without drop target animation"
+msgstr "Зареждане на KGet без кошница за пускане"
+
+#: main.cpp:138
+#, kde-format
+msgid "Execute Unit Testing"
+msgstr ""
+
+#: main.cpp:140
+#, kde-format
+msgid "URL(s) to download"
+msgstr "Адрес(и) за изтегляне"
+
+#: mainwindow.cpp:148
+#, kde-format
+msgid "&New Download..."
+msgstr "&Ново изтегляне..."
+
+#: mainwindow.cpp:155
+#, kde-format
+msgid "&Import Transfers..."
+msgstr ""
+
+#: mainwindow.cpp:162
+#, kde-format
+msgid "&Export Transfers List..."
+msgstr ""
+
+#: mainwindow.cpp:169
+#, kde-format
+msgid "&Create a Metalink..."
+msgstr ""
+
+#: mainwindow.cpp:175
+#, fuzzy, kde-format
+#| msgid "Priority"
+msgid "Top Priority"
+msgstr "Порт"
+
+#: mainwindow.cpp:182
+#, fuzzy, kde-format
+#| msgid "Priority"
+msgid "Least Priority"
+msgstr "Порт"
+
+#: mainwindow.cpp:189
+#, kde-format
+msgid "Increase Priority"
+msgstr "Увеличаване на приоритета"
+
+#: mainwindow.cpp:196
+#, kde-format
+msgid "Decrease Priority"
+msgstr "Намаляване на приоритета"
+
+#: mainwindow.cpp:204
+#, fuzzy, kde-format
+#| msgid "Delete Group"
+#| msgid_plural "Delete Groups"
+msgctxt "@action"
+msgid "Delete Group"
+msgstr "Изтриване на група"
+
+#: mainwindow.cpp:210
+#, fuzzy, kde-format
+#| msgid "Rename Group..."
+#| msgid_plural "Rename Groups..."
+msgctxt "@action"
+msgid "Rename Group..."
+msgstr "Преименуване на група..."
+
+#: mainwindow.cpp:215
+#, kde-format
+msgid "Set Icon..."
+msgstr "Задаване на икона..."
+
+#: mainwindow.cpp:221
+#, kde-format
+msgid "Auto-Paste Mode"
+msgstr ""
+
+#: mainwindow.cpp:224
+#, kde-format
+msgid ""
+"<b>Auto paste</b> button toggles the auto-paste mode on and off.\n"
+"When set, KGet will periodically scan the clipboard for URLs and paste them "
+"automatically."
+msgstr ""
+
+#: mainwindow.cpp:230
+#, kde-format
+msgid "Use KGet as Konqueror Download Manager"
+msgstr ""
+
+#: mainwindow.cpp:248
+#, kde-format
+msgctxt "delete selected transfer item"
+msgid "Remove Selected"
+msgstr "Премахване на избраното"
+
+#: mainwindow.cpp:255
+#, kde-format
+msgctxt "delete all finished transfers"
+msgid "Remove All Finished"
+msgstr "Премахване на всички завършени"
+
+#: mainwindow.cpp:261
+#, fuzzy, kde-format
+#| msgctxt "delete selected transfer item"
+#| msgid "Remove Selected"
+msgctxt "delete selected transfer item and files"
+msgid "Remove Selected and Delete Files"
+msgstr "Премахване на избраното"
+
+#: mainwindow.cpp:267
+#, kde-format
+msgctxt "redownload selected transfer item"
+msgid "Redownload Selected"
+msgstr "Изтегляне отново на избраните"
+
+#: mainwindow.cpp:272
+#, fuzzy, kde-format
+#| msgctxt "start transfergroup downloads"
+#| msgid "Start"
+msgid "Start All"
+msgstr "Начало"
+
+#: mainwindow.cpp:279
+#, fuzzy, kde-format
+#| msgid "Stop Selected"
+msgid "Start Selected"
+msgstr "Спиране на избраните"
+
+#: mainwindow.cpp:285
+#, kde-format
+msgid "Pause All"
+msgstr ""
+
+#: mainwindow.cpp:292
+#, kde-format
+msgid "Stop Selected"
+msgstr "Спиране на избраните"
+
+#: mainwindow.cpp:297
+#, fuzzy, kde-format
+#| msgctxt "start transfergroup downloads"
+#| msgid "Start"
+msgid "Start"
+msgstr "Начало"
+
+#: mainwindow.cpp:305
+#, kde-format
+msgid "Pause"
+msgstr ""
+
+#: mainwindow.cpp:314
+#, kde-format
+msgid "Open Destination"
+msgstr ""
+
+#: mainwindow.cpp:319
+#, kde-format
+msgid "Open File"
+msgstr "Отваряне на файл"
+
+#: mainwindow.cpp:323
+#, kde-format
+msgid "Show Details"
+msgstr "Показване на подробности"
+
+#: mainwindow.cpp:328
+#, kde-format
+msgid "Copy URL to Clipboard"
+msgstr ""
+
+#: mainwindow.cpp:333
+#, fuzzy, kde-format
+#| msgid "Transfer Plugins"
+msgid "&Transfer History"
+msgstr ".."
+
+#: mainwindow.cpp:339
+#, kde-format
+msgid "&Group Settings"
+msgstr "&настройки на група"
+
+#: mainwindow.cpp:345
+#, fuzzy, kde-format
+#| msgid "Transfer Plugins"
+msgid "&Transfer Settings"
+msgstr ".."
+
+#: mainwindow.cpp:351
+#, kde-format
+msgid "Import &Links..."
+msgstr ""
+
+#: mainwindow.cpp:357
+#, kde-format
+msgid "After downloads finished action"
+msgstr ""
+
+#. i18n("Choose an action that is executed after all downloads have been finished."));
+#: mainwindow.cpp:361
+#, fuzzy, kde-format
+#| msgctxt "Location = country"
+#| msgid "Location"
+msgid "No Action"
+msgstr "Местоположение"
+
+#: mainwindow.cpp:439
+#, kde-format
+msgid ""
+"This is the first time you have run KGet.\n"
+"Would you like to enable KGet as the download manager for Konqueror?"
+msgstr ""
+"Стартирате програмата KGet за първи път.\n"
+"Искате ли да бъде интегрирана с Konqueror?"
+
+#: mainwindow.cpp:441
+#, kde-format
+msgid "Konqueror Integration"
+msgstr "Интеграция с Konqueror"
+
+#: mainwindow.cpp:441
+#, kde-format
+msgid "Enable"
+msgstr "Включване"
+
+#: mainwindow.cpp:442
+#, kde-format
+msgid "Do Not Enable"
+msgstr "Без интегриране"
+
+#: mainwindow.cpp:508
+#, fuzzy, kde-format
+#| msgid "Open File"
+msgctxt "@title:window"
+msgid "Open File"
+msgstr "Отваряне на файл"
+
+#: mainwindow.cpp:509
+#, kde-format
+msgid "All Openable Files"
+msgstr ""
+
+#: mainwindow.cpp:525
+#, kde-format
+msgctxt "window title including overall download progress in percent"
+msgid "KGet - %1%"
+msgstr "KGet - %1%"
+
+#: mainwindow.cpp:575
+#, kde-format
+msgid ""
+"Some transfers are still running.\n"
+"Are you sure you want to close KGet?"
+msgstr ""
+
+#: mainwindow.cpp:577
+#, kde-format
+msgid "Confirm Quit"
+msgstr "Потвърждение на излизането"
+
+#: mainwindow.cpp:603
+#, fuzzy, kde-format
+#| msgid "Retry after:"
+msgctxt "@title:window"
+msgid "Export Transfers"
+msgstr "Възобновяване след:"
+
+#: mainwindow.cpp:604
+#, kde-format
+msgid "KGet Transfer List"
+msgstr ""
+
+#: mainwindow.cpp:604
+#, fuzzy, kde-format
+#| msgid "Move File"
+msgid "Text File"
+msgstr "Преместване на файл"
+
+#: mainwindow.cpp:635
+#, kde-format
+msgid "Enter Group Name"
+msgstr "Въведете име на групата"
+
+#: mainwindow.cpp:636
+#, kde-format
+msgid "Group name:"
+msgstr "Име на група:"
+
+#: mainwindow.cpp:723
+#, kde-format
+msgid "Are you sure you want to delete the selected transfer?"
+msgid_plural "Are you sure you want to delete the selected transfers?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mainwindow.cpp:725 mainwindow.cpp:754
+#, fuzzy, kde-format
+#| msgid "Transfer Plugins"
+msgid "Confirm transfer delete"
+msgstr ".."
+
+#: mainwindow.cpp:752
+#, kde-format
+msgid "Are you sure you want to delete the selected transfer including files?"
+msgid_plural ""
+"Are you sure you want to delete the selected transfers including files?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mainwindow.cpp:1083
+#, kde-format
+msgid ""
+"KGet has been temporarily disabled as download manager for Konqueror. If you "
+"want to disable it forever, go to Settings->Advanced and disable \"Use as "
+"download manager for Konqueror\"."
+msgstr ""
+
+#: mainwindow.cpp:1202 ui/droptarget.cpp:220
+#, kde-format
+msgid "The dropped file is a KGet Transfer List"
+msgstr ""
+
+#: mainwindow.cpp:1203 ui/droptarget.cpp:221
+#, kde-format
+msgid "&Download"
+msgstr "&Изтегляне"
+
+#: mainwindow.cpp:1204 ui/droptarget.cpp:222
+#, fuzzy, kde-format
+#| msgid "Transfer Plugins"
+msgid "&Load transfer list"
+msgstr ".."
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:54
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:58
+#, kde-format
+msgid "Advanced Details for %1"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:66
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:217
+#, kde-format
+msgid "Files"
+msgstr "Файлове"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:74
+#, kde-format
+msgid "Trackers"
+msgstr "Следящи сървъри"
+
+#: transfer-plugins/bittorrent/advanceddetails/btadvanceddetailswidget.cpp:77
+#, kde-format
+msgid "Webseeds"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:213
+#, kde-format
+msgid "Chunk"
+msgstr "Парче"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:214
+#, kde-format
+msgid "Progress"
+msgstr "Напредък"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:215
+#, kde-format
+msgid "Peer"
+msgstr "Потребител"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:216
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:314
+#, kde-format
+msgid "Down Speed"
+msgstr "Скорост на изтегляне"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:225
+#, kde-format
+msgid "Number of the chunk"
+msgstr "Номер на парчето"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:226
+#, kde-format
+msgid "Download progress of the chunk"
+msgstr "Напредък на изтеглянето на парчето"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:227
+#, kde-format
+msgid "Which peer we are downloading it from"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:228
+#, kde-format
+msgid "Download speed of the chunk"
+msgstr "Скорост на изтегляне на парчето"
+
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadmodel.cpp:229
+#, kde-format
+msgid "Which files the chunk is located in"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (windowTitle), widget (QWidget, ChunkDownloadView)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:13
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:154
+#, kde-format
+msgid "Chunks"
+msgstr "Парчета"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:23
+#, kde-format
+msgid "Total:"
+msgstr "Общо:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:59
+#, kde-format
+msgid "Currently downloading:"
+msgstr "Изтегляни в момента:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:95
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:163
+#, kde-format
+msgid "Downloaded:"
+msgstr "Изтеглени:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:131
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:205
+#, kde-format
+msgid "Excluded:"
+msgstr "Изключени:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:167
+#, kde-format
+msgid "Left:"
+msgstr "Оставащи:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_8)
+#: transfer-plugins/bittorrent/advanceddetails/chunkdownloadview.ui:203
+#, kde-format
+msgid "Size:"
+msgstr "Размер:"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:66
+#, kde-format
+msgctxt "Open file"
+msgid "Open"
+msgstr "Отваряне"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:68
+#, kde-format
+msgid "Download first"
+msgstr "Изтегляне първо"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:69
+#, kde-format
+msgid "Download normally"
+msgstr "Нормално изтегляне"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:70
+#, kde-format
+msgid "Download last"
+msgstr "Изтегляне последно"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:72
+#, kde-format
+msgid "Do Not Download"
+msgstr "Без изтегляне"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:73
+#, kde-format
+msgid "Delete File(s)"
+msgstr "Изтриване на файл(ове)"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:75
+#, kde-format
+msgid "Move File"
+msgstr "Преместване на файл"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:77
+#, kde-format
+msgid "Collapse Folder Tree"
+msgstr "Свиване на дървото с папки"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:78
+#, kde-format
+msgid "Expand Folder Tree"
+msgstr "Разгъване на дървото с папки"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:266
+#, fuzzy, kde-format
+#| msgid ""
+#| "You will lose all data in this file, are you sure you want to do this ?"
+msgid "You will lose all data in this file, are you sure you want to do this?"
+msgid_plural ""
+"You will lose all data in these files, are you sure you want to do this?"
+msgstr[0] ""
+"Ще загубите всички свалени данни. Сигурни ли сте, че искате да го направите?"
+msgstr[1] ""
+"Ще загубите всички свалени данни. Сигурни ли сте, че искате да го направите?"
+
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:280
+#: transfer-plugins/bittorrent/advanceddetails/fileview.cpp:300
+#, fuzzy, kde-format
+#| msgid "Select a directory to move the data to."
+msgid "Select a directory to move the data to"
+msgstr "Изберете папка, в която да се преместят данните."
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:67
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:70
+#, kde-format
+msgid "Priority"
+msgstr "Приоритет"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:68
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:71
+#, kde-format
+msgid "Preview"
+msgstr "Преглед"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:70
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:73
+#, no-c-format, kde-format
+msgctxt "Percent of File Downloaded"
+msgid "% Complete"
+msgstr "% завършено"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:80
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:83
+#, kde-format
+msgctxt "Download first"
+msgid "First"
+msgstr "Първо"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:82
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:85
+#, kde-format
+msgctxt "Download last"
+msgid "Last"
+msgstr "Последно"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:87
+#, kde-format
+msgctxt "Download Normal (not as first or last)"
+msgid "Normal"
+msgstr "Нормално"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:122
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:145
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:149
+#, kde-format
+msgctxt "Preview available"
+msgid "Available"
+msgstr "Наличен"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:124
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:147
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:128
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:151
+#, kde-format
+msgctxt "Preview pending"
+msgid "Pending"
+msgstr "Изчакващо"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:127
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:150
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:131
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:154
+#, kde-format
+msgctxt "No preview available"
+msgid "No"
+msgstr "Не"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:131
+#: transfer-plugins/bittorrent/advanceddetails/iwfilelistmodel.cpp:154
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:136
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:156
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:162
+#, kde-format
+msgid "%1 %"
+msgstr " %1 %"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:90
+#, kde-format
+msgctxt "Download normally(not as first or last)"
+msgid "Normal"
+msgstr "Нормално"
+
+#: transfer-plugins/bittorrent/advanceddetails/iwfiletreemodel.cpp:126
+#, kde-format
+msgctxt "preview available"
+msgid "Available"
+msgstr "Наличен"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerview.cpp:55
+#, kde-format
+msgid "Kick Peer"
+msgstr "Изритване на потребител"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerview.cpp:56
+#, kde-format
+msgid "Ban Peer"
+msgstr "Блокиране на потребител"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:156
+#, kde-format
+msgctxt "Choked"
+msgid "Yes"
+msgstr "Да"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:156
+#, kde-format
+msgctxt "Not choked"
+msgid "No"
+msgstr "Без"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:157
+#, kde-format
+msgctxt "Snubbed"
+msgid "Yes"
+msgstr "Да"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:157
+#, kde-format
+msgctxt "Not snubbed"
+msgid "No"
+msgstr "Не"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:165
+#, kde-format
+msgctxt "Interested"
+msgid "Yes"
+msgstr "Да"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:165
+#, kde-format
+msgctxt "Not Interested"
+msgid "No"
+msgstr "Не"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:166
+#, kde-format
+msgctxt "Interesting"
+msgid "Yes"
+msgstr "Да"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:166
+#, kde-format
+msgctxt "Not Interesting"
+msgid "No"
+msgstr "Не"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:312
+#, kde-format
+msgid "IP Address"
+msgstr "IP адрес"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:313
+#, kde-format
+msgid "Client"
+msgstr "Клиент"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:315
+#, kde-format
+msgid "Up Speed"
+msgstr "Скорост на качване"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:316
+#, kde-format
+msgid "Choked"
+msgstr "Раздробен"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:317
+#, kde-format
+msgid "Snubbed"
+msgstr "Спрян"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:318
+#, kde-format
+msgid "Availability"
+msgstr "Наличност"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:319
+#, kde-format
+msgid "DHT"
+msgstr "DHT (протокол за размяна между децентрализирани потребители)"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:320
+#, kde-format
+msgid "Score"
+msgstr "Точки"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:321
+#, kde-format
+msgid "Upload Slot"
+msgstr "Изключване на всички"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:322
+#, kde-format
+msgid "Requests"
+msgstr "Заявки"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:323
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:129
+#, kde-format
+msgid "Downloaded"
+msgstr "Свалени"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:324
+#, kde-format
+msgid "Uploaded"
+msgstr "Качени"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:325
+#, kde-format
+msgid "Interested"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:326
+#, fuzzy, kde-format
+#| msgid "Integration"
+msgid "Interesting"
+msgstr "Интеграция"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:334
+#, kde-format
+msgid "IP address of the peer"
+msgstr "IP, което да бъде изпратено на координиращия сървър"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:335
+#, kde-format
+msgid "Which client the peer is using"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:336
+#, kde-format
+msgid "Download speed"
+msgstr "Скорост на изтегляне"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:337
+#, kde-format
+msgid "Upload speed"
+msgstr "Скорост на качване"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:338
+#, kde-format
+msgid ""
+"Whether or not the peer has choked us. If we are choked, the peer will not "
+"send us any data."
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:339
+#, kde-format
+msgid "Snubbed means the peer has not sent us any data in the last 2 minutes"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:340
+#, kde-format
+msgid "How much of the torrent's data the peer has"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:341
+#, kde-format
+msgid "Whether or not the peer has DHT enabled"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:342
+#, kde-format
+msgid ""
+"The score of the peer. KTorrent uses this to determine who to upload to."
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:343
+#, kde-format
+msgid "Only peers which have an upload slot will get data from us"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:344
+#, kde-format
+msgid "The number of download and upload requests"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:345
+#, kde-format
+msgid "How much data we have downloaded from this peer"
+msgstr "Колко данни са изтеглени от този потребител"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:346
+#, kde-format
+msgid "How much data we have uploaded to this peer"
+msgstr "Колко данни са качени към този потребител"
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:347
+#, kde-format
+msgid "Whether the peer is interested in downloading data from us"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/peerviewmodel.cpp:348
+#, kde-format
+msgid "Whether we are interested in downloading from this peer"
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:72
+#: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:380
+#, kde-format
+msgid "File"
+msgstr "Файл"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
+#: transfer-plugins/bittorrent/advanceddetails/torrentfilelistmodel.cpp:73
+#: transfer-plugins/bittorrent/advanceddetails/torrentfiletreemodel.cpp:381
+#: ui/history/transferhistory.ui:90
+#, kde-format
+msgid "Size"
+msgstr "Големина"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackermodel.cpp:151
+#, kde-format
+msgid "Url"
+msgstr "Url-адрес"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackermodel.cpp:152
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:130
+#: ui/history/transferhistory.cpp:248
+#, kde-format
+msgid "Status"
+msgstr "Състояние"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackermodel.cpp:153
+#, kde-format
+msgid "Seeders"
+msgstr "Качващи"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackermodel.cpp:154
+#, kde-format
+msgid "Leechers"
+msgstr "Изтеглящи"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackermodel.cpp:155
+#, kde-format
+msgid "Times Downloaded"
+msgstr "Брой изтегляния"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackermodel.cpp:156
+#, kde-format
+msgid "Next Update"
+msgstr "Следващо обновяване"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_add_tracker)
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:88
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:21
+#, kde-format
+msgid "Add Tracker"
+msgstr "Добавяне на сървър"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:88
+#, kde-format
+msgid "Enter the URL of the tracker:"
+msgstr "Въведете URL-адрес на следящ сървър"
+
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:103
+#, kde-format
+msgid "There already is a tracker named <b>%1</b>."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_remove_tracker)
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:28
+#, kde-format
+msgid "Remove Tracker"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_change_tracker)
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:35
+#, kde-format
+msgid "Change Tracker"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_scrape)
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:42
+#, kde-format
+msgid "Update Trackers"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_restore_defaults)
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.ui:62
+#, kde-format
+msgid "Restore Defaults"
+msgstr "По подразбиране"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, enginesTreeWidget)
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:127
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:32
+#: ui/linkview/kget_linkview.cpp:90
+#, kde-format
+msgid "URL"
+msgstr "URL-адрес"
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedsmodel.cpp:128
+#, kde-format
+msgid "Speed"
+msgstr "Скорост"
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.cpp:97
+#, kde-format
+msgid "Cannot add the webseed %1, it is already part of the list of webseeds."
+msgstr ""
+
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.cpp:114
+#, kde-format
+msgid "Cannot remove webseed %1, it is part of the torrent."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, m_webseed)
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.ui:21
+#, kde-format
+msgid ""
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Webseed to add to the "
+"torrent.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
+"weight:600;\">Note: </span>Only http webseeds are supported.</p></body></"
+"html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_add)
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.ui:28
+#, kde-format
+msgid "Add Webseed"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_remove)
+#: transfer-plugins/bittorrent/advanceddetails/webseedstab.ui:50
+#, kde-format
+msgid "Remove Webseed"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:29
+#, kde-format
+msgid "Stats"
+msgstr "Статистика"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:47
+#, kde-format
+msgid "Seeders:"
+msgstr "Качващи:"
+
+#. i18n: ectx: property (text), widget (QLabel, seederLabel)
+#. i18n: ectx: property (text), widget (QLabel, dlSpeedLabel)
+#. i18n: ectx: property (text), widget (QLabel, leecherLabel)
+#. i18n: ectx: property (text), widget (QLabel, ulSpeedLabel)
+#. i18n: ectx: property (text), widget (QLabel, chunksDownloadedLabel)
+#. i18n: ectx: property (text), widget (QLabel, chunksLeftLabel)
+#. i18n: ectx: property (text), widget (QLabel, chunksAllLabel)
+#. i18n: ectx: property (text), widget (QLabel, chunksExcludedLabel)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:60
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:86
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:112
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:138
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:170
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:184
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:198
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:212
+#, kde-format
+msgid "<n>"
+msgstr "<n>"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:73
+#, kde-format
+msgid "Download speed:"
+msgstr "Скорост на изтегляне:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:99
+#, kde-format
+msgid "Leechers:"
+msgstr "Изтеглящи:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:125
+#, kde-format
+msgid "Upload speed:"
+msgstr "Скорост на качване:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:177
+#, kde-format
+msgctxt "chunks left"
+msgid "Left:"
+msgstr "Оставащи:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:191
+#, kde-format
+msgctxt "all chunks"
+msgid "All:"
+msgstr "Всички:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:240
+#, kde-format
+msgctxt "source-file"
+msgid "Source:"
+msgstr "Източник:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, destLabel)
+#: transfer-plugins/bittorrent/btdetailswidgetfrm.ui:247
+#: ui/transferdetailsfrm.ui:44
+#, kde-format
+msgid "Saving to:"
+msgstr "Запис в:"
+
+#. i18n: ectx: property (text), widget (QLabel, uploadLimitLabel)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:49
+#, kde-format
+msgid "Upload limit per transfer:"
+msgstr ""
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, uploadBox)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, downloadBox)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:56
+#: transfer-plugins/bittorrent/btsettingswidget.ui:76
+#, kde-format
+msgid "No Limit"
+msgstr "Без ограничение"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, uploadBox)
+#. i18n: ectx: property (suffix), widget (QSpinBox, downloadBox)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:59
+#: transfer-plugins/bittorrent/btsettingswidget.ui:79
+#, kde-format
+msgid "KiB"
+msgstr "KiB"
+
+#. i18n: ectx: property (text), widget (QLabel, downloadLabel)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:69
+#, fuzzy, kde-format
+#| msgid "Download completed"
+msgid "Download limit per transfer:"
+msgstr "Изтеглянето завърши"
+
+#. i18n: ectx: property (text), widget (QCheckBox, utpBox)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:89
+#, kde-format
+msgid "Enable UTP protocol"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, folderGroupBox)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:105
+#, kde-format
+msgid "Folders"
+msgstr "Папки"
+
+#. i18n: ectx: property (text), widget (QLabel, torrentFolderLabel)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:117
+#, fuzzy, kde-format
+#| msgid "Default Folder"
+msgid "Default torrent folder:"
+msgstr "Стандартна директория"
+
+#. i18n: ectx: property (text), widget (QLabel, tempFolderLabel)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:137
+#, fuzzy, kde-format
+#| msgid "Default Folder"
+msgid "Default temporary folder:"
+msgstr "Стандартна директория"
+
+#. i18n: ectx: property (text), widget (QCheckBox, preallocBox)
+#: transfer-plugins/bittorrent/btsettingswidget.ui:154
+#, fuzzy, kde-format
+#| msgid "Allocating diskspace"
+msgid "Pre-allocate disk space"
+msgstr "Преразпределяне на дисково пространство"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:140
+#, kde-format
+msgid "Downloading Torrent File...."
+msgstr "Изтегляне на торент файл..."
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:184
+#: transfer-plugins/bittorrent/bttransfer.cpp:288
+#, kde-format
+msgctxt "transfer state: downloading"
+msgid "Downloading...."
+msgstr "Изтегляне...."
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:261
+#, kde-format
+msgid "Cannot add a tracker to a private torrent."
+msgstr "Не можете да добавяте координиращ сървър към частен торент."
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:423
+#, fuzzy, kde-format
+#| msgid "The directory %1 does not exist"
+msgid "Torrent file does not exist"
+msgstr "Директория %1 не съществува"
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:428
+#, kde-format
+msgid "Analyzing torrent...."
+msgstr "Анализиране на торента..."
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:440
+#, kde-format
+msgid "Cannot initialize port..."
+msgstr ""
+
+#: transfer-plugins/bittorrent/bttransfer.cpp:511
+#, fuzzy, kde-format
+#| msgctxt "Transfer status: seeding"
+#| msgid "Seeding.."
+msgctxt "Transfer status: seeding"
+msgid "Seeding...."
+msgstr "Качване..."
+
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:33
+#, kde-format
+msgid "Cannot initialize libktorrent. Torrent support might not work."
+msgstr ""
+
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:82
+#, kde-format
+msgid "&Advanced Details"
+msgstr "&Допълнителни настройки"
+
+#: transfer-plugins/bittorrent/bttransferfactory.cpp:88
+#, kde-format
+msgid "&Scan Files"
+msgstr "&Претърсване на файлове"
+
+#: transfer-plugins/bittorrent/scandlg.cpp:107
+#, kde-format
+msgid "Error scanning data: %1"
+msgstr "Грешка при сканиране на данни: %1"
+
+#. i18n: ectx: property (text), widget (QLabel, torrent_label)
+#: transfer-plugins/bittorrent/scandlg.ui:16
+#, fuzzy, kde-format
+#| msgid "Scanning data of <b>%1</b> :"
+msgid "Scanning data of torrent:"
+msgstr "Сканиране на данните за <b>%1</b> :"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: transfer-plugins/bittorrent/scandlg.ui:30
+#, kde-format
+msgid "Number of chunks found:"
+msgstr "Брой открити парчета:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: transfer-plugins/bittorrent/scandlg.ui:40
+#, fuzzy, kde-format
+#| msgid "Number of retries:"
+msgid "Number of chunks failed:"
+msgstr "Брой опити:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: transfer-plugins/bittorrent/scandlg.ui:50
+#, kde-format
+msgid "Number of chunks not downloaded:"
+msgstr "Брой неизтеглени парчета:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: transfer-plugins/bittorrent/scandlg.ui:57
+#, kde-format
+msgid "Number of chunks downloaded:"
+msgstr "Брой изтеглени парчета:"
+
+#. i18n: ectx: property (text), widget (QLabel, chunks_found)
+#. i18n: ectx: property (text), widget (QLabel, chunks_failed)
+#. i18n: ectx: property (text), widget (QLabel, chunks_not_downloaded)
+#. i18n: ectx: property (text), widget (QLabel, chunks_downloaded)
+#: transfer-plugins/bittorrent/scandlg.ui:77
+#: transfer-plugins/bittorrent/scandlg.ui:102
+#: transfer-plugins/bittorrent/scandlg.ui:124
+#: transfer-plugins/bittorrent/scandlg.ui:137
+#, kde-format
+msgid "0"
+msgstr "0"
+
+#. i18n: ectx: property (text), widget (QPushButton, cancel)
+#: transfer-plugins/bittorrent/scandlg.ui:183
+#, kde-format
+msgid "Cancel"
+msgstr "Отмяна"
+
+#: transfer-plugins/checksumsearch/checksumsearch.cpp:30
+#, kde-format
+msgid "Append"
+msgstr "Добавяне"
+
+#: transfer-plugins/checksumsearch/checksumsearch.cpp:30
+#, kde-format
+msgid "Replace file"
+msgstr ""
+
+#: transfer-plugins/checksumsearch/checksumsearch.cpp:30
+#, kde-format
+msgid "Replace file-ending"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: transfer-plugins/checksumsearch/checksumsearchadddlg.ui:19
+#, kde-format
+msgid "Change string:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: transfer-plugins/checksumsearch/checksumsearchadddlg.ui:33
+#, kde-format
+msgid "Mode:"
+msgstr "Режим:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: transfer-plugins/checksumsearch/checksumsearchadddlg.ui:43
+#, kde-format
+msgid "Checksum type:"
+msgstr "Вид контролна сума:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: transfer-plugins/checksumsearch/checksumsearchadddlg.ui:77
+#, kde-format
+msgid "Result:"
+msgstr "Резултат:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: transfer-plugins/checksumsearch/checksumsearchadddlg.ui:84
+#, kde-format
+msgid "label"
+msgstr "етикет"
+
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:45
+#, kde-format
+msgid "Add item"
+msgstr ""
+
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:73
+#, kde-format
+msgid "%1 would become %2"
+msgstr ""
+
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:195
+#, fuzzy, kde-format
+#| msgid "Connecting"
+msgctxt "the string that is used to modify an url"
+msgid "Change string"
+msgstr "Връзки"
+
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:196
+#, kde-format
+msgctxt "the mode defines how the url should be changed"
+msgid "Change mode"
+msgstr "Смяна на режима"
+
+#: transfer-plugins/checksumsearch/dlgchecksumsearch.cpp:197
+#, kde-format
+msgctxt "the type of the checksum e.g. md5"
+msgid "Checksum type"
+msgstr ""
+
+#. i18n: ectx: label, entry (SearchStrings), group (ChecksumSearch)
+#. i18n: ectx: label, entry (SearchEnginesNameList), group (SearchEngines)
+#: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:9
+#: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:12
+#, kde-format
+msgid "List of the available search engines"
+msgstr ""
+
+#. i18n: ectx: label, entry (UrlChangeModeList), group (ChecksumSearch)
+#. i18n: ectx: label, entry (ChecksumTypeList), group (ChecksumSearch)
+#. i18n: ectx: label, entry (SearchEnginesUrlList), group (SearchEngines)
+#. i18n: ectx: label, entry (PathList), group (UserScripts)
+#: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:13
+#: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:17
+#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:13
+#: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:16
+#, kde-format
+msgid "List of the available search engine URLs"
+msgstr ""
+
+#: transfer-plugins/contentfetch/contentfetch.cpp:52
+#, kde-format
+msgctxt "Transfer state: processing script"
+msgid "Processing script...."
+msgstr ""
+
+#: transfer-plugins/contentfetch/contentfetch.cpp:83
+#, kde-format
+msgctxt "Transfer State: Finished"
+msgid "Finished"
+msgstr "Готово"
+
+#: transfer-plugins/contentfetch/contentfetch.cpp:92
+#, kde-format
+msgctxt "Transfer State: Aborted"
+msgid "Aborted"
+msgstr "Прекъснато"
+
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.cpp:117
+#, fuzzy, kde-format
+#| msgid "Configure..."
+msgctxt "Configure script"
+msgid "Configure script"
+msgstr "Настройване..."
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:16
+#, kde-format
+msgid "User Scripts"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:27
+#, kde-format
+msgid "Path"
+msgstr "Път"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:32
+#, kde-format
+msgid "RegExp"
+msgstr "Рег. израз"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, scriptTreeWidget)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:37
+#: ui/linkview/kget_linkview.cpp:159
+#, kde-format
+msgid "Description"
+msgstr "Описание"
+
+#. i18n: ectx: property (text), widget (QPushButton, newScriptButton)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:60
+#, kde-format
+msgid "New Script...."
+msgstr "Нов скрипт..."
+
+#. i18n: ectx: property (text), widget (QPushButton, removeEngineBt)
+#. i18n: ectx: property (text), widget (QPushButton, removeScriptButton)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:67
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:62
+#, kde-format
+msgid "Remove"
+msgstr "Премахване"
+
+#. i18n: ectx: property (text), widget (QPushButton, editScriptButton)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:74
+#, kde-format
+msgid "Edit...."
+msgstr "Редактиране..."
+
+#. i18n: ectx: property (text), widget (QPushButton, configureScriptButton)
+#: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:81
+#, kde-format
+msgid "Configure...."
+msgstr "Настройки..."
+
+#: transfer-plugins/contentfetch/dlgscriptediting.cpp:31
+#, kde-format
+msgid "Add New Script"
+msgstr ""
+
+#: transfer-plugins/contentfetch/dlgscriptediting.cpp:45
+#, kde-format
+msgid "Edit Script"
+msgstr "&Добавяне"
+
+#: transfer-plugins/contentfetch/dlgscriptediting.cpp:56
+#, fuzzy, kde-format
+#| msgid "Description"
+msgid "Set Script File"
+msgstr "Описание"
+
+#. i18n: ectx: property (text), widget (QLabel, scriptUrlRegexpLabel)
+#: transfer-plugins/contentfetch/dlgscriptediting.ui:29
+#, kde-format
+msgid "Regexp:"
+msgstr "Рег. израз:"
+
+#. i18n: ectx: property (text), widget (QLabel, scriptPathLabel)
+#: transfer-plugins/contentfetch/dlgscriptediting.ui:36
+#, kde-format
+msgid "Path:"
+msgstr "Път:"
+
+#. i18n: ectx: property (text), widget (QLabel, scriptDescriptionLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: transfer-plugins/contentfetch/dlgscriptediting.ui:43
+#: ui/metalinkcreator/commondata.ui:32
+#, kde-format
+msgid "Description:"
+msgstr "Описание:"
+
+#. i18n: ectx: label, entry (UrlRegexpList), group (UserScripts)
+#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:9
+#, kde-format
+msgid "List of the Regexp to match input URL"
+msgstr ""
+
+#. i18n: ectx: label, entry (DescriptionList), group (UserScripts)
+#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:21
+#, kde-format
+msgid "List of descriptions for user scripts"
+msgstr ""
+
+#. i18n: ectx: label, entry (EnableList), group (UserScripts)
+#: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:25
+#, kde-format
+msgid "List of whether the script is enabled"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, fileSettingGroupBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:16
+#, kde-format
+msgid "File Settings"
+msgstr "Файлови настройки"
+
+#. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:25
+#: ui/metalinkcreator/filedlg.ui:54
+#, kde-format
+msgid "Filename:"
+msgstr "Име на файл:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, fileNameComboBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:33
+#, kde-format
+msgid "Use Normalized Name"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, fileNameComboBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:38
+#, kde-format
+msgid "Use Literal Name"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, qualityLabel)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:46
+#, kde-format
+msgid "Quality:"
+msgstr "Качество:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, qualityComboBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:54
+#, kde-format
+msgid "Best Quality (.mp4)"
+msgstr "Най-добро качество (.mp4)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, qualityComboBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:59
+#, kde-format
+msgid "Normal Quality (.flv)"
+msgstr "Нормално качество (.flv)"
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, loginGroupBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:70
+#, kde-format
+msgid ""
+"Provide login info of your YouTube account in order to access restricted "
+"media."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, loginGroupBox)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:73
+#, kde-format
+msgid "Login Info"
+msgstr "Данни за вход"
+
+#. i18n: ectx: property (text), widget (QLabel, usernameLabel)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:101
+#, kde-format
+msgid "Username:"
+msgstr "Потребител:"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, useNetrcCheck)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:113
+#, kde-format
+msgid ".netrc must have a hostname called 'youtube'."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, useNetrcCheck)
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:116
+#, kde-format
+msgid "User .netrc file"
+msgstr ""
+
+#: transfer-plugins/kio/transferKio.cpp:97
+#, kde-format
+msgctxt "transfer state: connecting"
+msgid "Connecting...."
+msgstr "Свързване...."
+
+#: transfer-plugins/kio/transferKio.cpp:277
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:254
+#, kde-format
+msgid "The download (%1) could not be verified. Do you want to repair it?"
+msgstr ""
+
+#: transfer-plugins/kio/transferKio.cpp:280
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:257
+#, kde-format
+msgid "The download (%1) could not be verified. Do you want to redownload it?"
+msgstr ""
+
+#: transfer-plugins/kio/transferKio.cpp:284
+#: transfer-plugins/multisegmentkio/transfermultisegkio.cpp:261
+#, kde-format
+msgid "Verification failed."
+msgstr ""
+
+#: transfer-plugins/metalink/abstractmetalink.cpp:217
+#: transfer-plugins/metalink/metalink.cpp:490
+#, kde-format
+msgid ""
+"The download could not be verified, do you want to repair (if repairing does "
+"not work the download would be restarted) it?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: transfer-plugins/metalink/dlgmetalink.ui:22
+#, kde-format
+msgid "Number of simultaneous file downloads:"
+msgstr "Брой едновременни файлови изтегляния:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: transfer-plugins/metalink/dlgmetalink.ui:39
+#, fuzzy, kde-format
+#| msgid "Number of retries:"
+msgid "Number of mirrors per file:"
+msgstr "Брой опити:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: transfer-plugins/metalink/dlgmetalink.ui:56
+#: transfer-plugins/mmsthreads/dlgmms.ui:22
+#: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:22
+#, fuzzy, kde-format
+#| msgid "Number of retries:"
+msgid "Number of connections per URL:"
+msgstr "Брой опити:"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: transfer-plugins/metalink/fileselection.ui:17
+#, kde-format
+msgid "Select the files you want to be downloaded."
+msgstr ""
+
+#: transfer-plugins/metalink/fileselectiondlg.cpp:35
+#, kde-format
+msgid "File Selection"
+msgstr "Избор на файл"
+
+#: transfer-plugins/metalink/metalink.cpp:81
+#: transfer-plugins/metalink/metalinkxml.cpp:78
+#, fuzzy, kde-format
+#| msgid "Downloading Torrent-File.."
+msgid "Downloading Metalink File...."
+msgstr "Изтегляне на торент файл"
+
+#: transfer-plugins/metalink/metalink.cpp:119
+#: transfer-plugins/metalink/metalinkxml.cpp:117
+#, kde-format
+msgid ""
+"A newer version of this Metalink might exist, do you want to download it?"
+msgstr ""
+
+#: transfer-plugins/metalink/metalink.cpp:120
+#: transfer-plugins/metalink/metalinkxml.cpp:118
+#, fuzzy, kde-format
+#| msgid "Downloading Torrent-File.."
+msgid "Redownload Metalink"
+msgstr "Изтегляне на торент файл"
+
+#: transfer-plugins/metalink/metalink.cpp:200
+#: transfer-plugins/metalink/metalinkhttp.cpp:242
+#: transfer-plugins/metalink/metalinkxml.cpp:199
+#, kde-format
+msgid "Download failed, no working URLs were found."
+msgstr ""
+
+#: transfer-plugins/metalink/metalinkhttp.cpp:161
+#, kde-format
+msgid "The download could not be verified, try to repair it?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, engineNameLabel)
+#: transfer-plugins/mirrorsearch/dlgengineediting.ui:16
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.cpp:44
+#, kde-format
+msgid "Engine name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_21)
+#: transfer-plugins/mirrorsearch/dlgengineediting.ui:30
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.cpp:45
+#: ui/metalinkcreator/commondata.ui:170 ui/newtransferwidget.ui:23
+#, kde-format
+msgid "URL:"
+msgstr "Адрес (URL):"
+
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.cpp:34
+#, kde-format
+msgid "Insert Engine"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:16
+#, kde-format
+msgid "Search Engines"
+msgstr "Търсачки"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, enginesTreeWidget)
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:27
+#, kde-format
+msgid "Engine Name"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, newEngineBt)
+#: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:55
+#, kde-format
+msgid "New Engine..."
+msgstr ""
+
+#: transfer-plugins/mmsthreads/mmstransfer.cpp:60
+#, kde-format
+msgctxt "transfer state: running"
+msgid "Running...."
+msgstr "Изпълнение...."
+
+#: transfer-plugins/mmsthreads/mmstransfer.cpp:127
+#, kde-format
+msgctxt "Transfer State:Finished"
+msgid "Finished"
+msgstr "Готово"
+
+#: transfer-plugins/mmsthreads/mmstransfer.cpp:174
+#, kde-format
+msgid "Download failed, could not access this URL."
+msgstr ""
+
+#: transfer-plugins/mmsthreads/mmstransfer.cpp:184
+#, kde-format
+msgid ""
+"This URL does not allow multiple connections,\n"
+"the download will take longer."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, enginesCheckBox)
+#: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:44
+#, kde-format
+msgid "Use search engines"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, verificationCheckBox)
+#: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:51
+#, kde-format
+msgid "Search for verification information"
+msgstr ""
+
+#: transfer-plugins/multisegmentkio/segment.cpp:296
+#, fuzzy, kde-format
+#| msgid "Failed to write to file %1 : %2"
+msgid "Failed to write to the file."
+msgstr "Невъзможно създаване на %1 : %2"
+
+#: ui/contextmenu.cpp:116
+#, kde-format
+msgid "Delete Group"
+msgid_plural "Delete Groups"
+msgstr[0] "Изтриване на група"
+msgstr[1] "Изтриване на групи"
+
+#: ui/contextmenu.cpp:120
+#, kde-format
+msgid "Rename Group..."
+msgid_plural "Rename Groups..."
+msgstr[0] "Преименуване на група..."
+msgstr[1] "Преименуване на групи..."
+
+#: ui/droptarget.cpp:84
+#, kde-format
+msgctxt "fix position for droptarget"
+msgid "Sticky"
+msgstr "Прилепване"
+
+#: ui/droptarget.cpp:278
+#, kde-format
+msgid "Show Main Window"
+msgstr "Показване на основния прозорец"
+
+#: ui/droptarget.cpp:279
+#, kde-format
+msgid "Hide Main Window"
+msgstr "Скриване на основния прозорец"
+
+#: ui/droptarget.cpp:370
+#, kde-format
+msgid "Drop Target"
+msgstr "Кошница за пускане"
+
+#: ui/droptarget.cpp:371
+#, kde-format
+msgid "You can drag download links into the drop target."
+msgstr ""
+
+#: ui/droptarget.cpp:416
+#, kde-format
+msgctxt "%1 filename, %2 total size, %3 status"
+msgid "%1(%2) %3"
+msgstr "%1(%2) %3"
+
+#: ui/droptarget.cpp:422
+#, kde-format
+msgctxt "%1 filename, %2 percent complete, %3 downloaded out of %4 total size"
+msgid "%1(%2% %3/%4) Speed:%5/s"
+msgstr "%1(%2% %3/%4) Скорост:%5/сек"
+
+#: ui/droptarget.cpp:430
+#, kde-format
+msgctxt ""
+"%1 filename, %2 percent complete, %3 downloaded out of %4 total size, %5 "
+"status"
+msgid "%1(%2% %3/%4) %5"
+msgstr "%1(%2% %3/%4) %5"
+
+#: ui/droptarget.cpp:444
+#, kde-format
+msgid "Ready"
+msgstr "Готово"
+
+#: ui/groupsettingsdialog.cpp:19
+#, kde-format
+msgid "Group Settings for %1"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: ui/groupsettingsdialog.ui:32
+#, kde-format
+msgid "Group Settings"
+msgstr "Настройки на група"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/groupsettingsdialog.ui:44
+#, fuzzy, kde-format
+#| msgid "Default folder:"
+msgid "Defau&lt folder:"
+msgstr "Папка по подразбиране:"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#: ui/groupsettingsdialog.ui:61
+#, kde-format
+msgid "Moves all transfers with the regular expression to this group"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/groupsettingsdialog.ui:64
+#, fuzzy, kde-format
+#| msgid "Regular expression:"
+msgid "Re&gular expression:"
+msgstr "Регулярен израз:"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, regExpEdit)
+#: ui/groupsettingsdialog.ui:74
+#, kde-format
+msgid "*movies*"
+msgstr ""
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, downloadBox)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, uploadBox)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, uploadSpin)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, downloadSpin)
+#. i18n: ectx: property (specialValueText), widget (QDoubleSpinBox, ratioSpin)
+#: ui/groupsettingsdialog.ui:87 ui/groupsettingsdialog.ui:106
+#: ui/transfersettingsdialog.ui:51 ui/transfersettingsdialog.ui:67
+#: ui/transfersettingsdialog.ui:83
+#, kde-format
+msgctxt "No value has been set"
+msgid "Not set"
+msgstr "Не е указано"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/groupsettingsdialog.ui:119
+#, fuzzy, kde-format
+#| msgid "Maximum download speed:"
+msgid "Ma&ximum download speed:"
+msgstr "Максимална скорост на изтегляне:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/groupsettingsdialog.ui:129
+#, fuzzy, kde-format
+#| msgid "Maximum upload speed:"
+msgid "Maximum &upload speed:"
+msgstr "Максимална скорост на качване:"
+
+#: ui/history/transferhistory.cpp:51
+#, kde-format
+msgid "Transfer History"
+msgstr ""
+
+#: ui/history/transferhistory.cpp:72
+#, kde-format
+msgid "&Open File"
+msgstr "&Отваряне на файл"
+
+#: ui/history/transferhistory.cpp:214
+#, kde-format
+msgctxt "The transfer is running"
+msgid "Running"
+msgstr "В изпълнение"
+
+#: ui/history/transferhistory.cpp:216
+#, kde-format
+msgctxt "The transfer is stopped"
+msgid "Stopped"
+msgstr "Спряно"
+
+#: ui/history/transferhistory.cpp:218
+#, kde-format
+msgctxt "The transfer is aborted"
+msgid "Aborted"
+msgstr "Прекъснато"
+
+#: ui/history/transferhistory.cpp:220
+#, kde-format
+msgctxt "The transfer is finished"
+msgid "Finished"
+msgstr "Готово"
+
+#: ui/history/transferhistory.cpp:248
+#, fuzzy, kde-format
+#| msgid "Source-File"
+msgid "Source File"
+msgstr "Източник"
+
+#: ui/history/transferhistory.cpp:248
+#, kde-format
+msgid "Destination"
+msgstr "Назначение"
+
+#: ui/history/transferhistory.cpp:248
+#, kde-format
+msgid "Time"
+msgstr "Време"
+
+#: ui/history/transferhistory.cpp:248
+#, kde-format
+msgid "File Size"
+msgstr "Големина на файл"
+
+#: ui/history/transferhistory.cpp:258
+#, kde-format
+msgid "Less than 1MiB"
+msgstr "По-малко от 1 MiB"
+
+#: ui/history/transferhistory.cpp:260
+#, kde-format
+msgid "Between 1MiB-10MiB"
+msgstr "Между 1 и 10 MiB"
+
+#: ui/history/transferhistory.cpp:262
+#, kde-format
+msgid "Between 10MiB-100MiB"
+msgstr "Между 10 и 100 MiB"
+
+#: ui/history/transferhistory.cpp:264
+#, kde-format
+msgid "Between 100MiB-1GiB"
+msgstr "Между 100 MiB и 1 GiB"
+
+#: ui/history/transferhistory.cpp:266
+#, kde-format
+msgid "More than 1GiB"
+msgstr "Повече от 1 GiB"
+
+#: ui/history/transferhistory.cpp:269
+#: ui/history/transferhistorycategorizeddelegate.cpp:45
+#, kde-format
+msgid "Today"
+msgstr "Днес"
+
+#: ui/history/transferhistory.cpp:270
+#: ui/history/transferhistorycategorizeddelegate.cpp:49
+#, kde-format
+msgid "Last week"
+msgstr "Миналата седмица"
+
+#: ui/history/transferhistory.cpp:271
+#, kde-format
+msgid "Last month"
+msgstr "Миналия месец"
+
+#: ui/history/transferhistory.cpp:272
+#: ui/history/transferhistorycategorizeddelegate.cpp:57
+#, kde-format
+msgid "A long time ago"
+msgstr "Преди много време"
+
+#: ui/history/transferhistory.cpp:292
+#, kde-format
+msgctxt "the transfer has been finished"
+msgid "Finished"
+msgstr "Готово"
+
+#. i18n: ectx: property (text), widget (QPushButton, clearButton)
+#: ui/history/transferhistory.ui:27
+#, kde-format
+msgid "Clear History"
+msgstr "Изчистване на историята"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/history/transferhistory.ui:47
+#, fuzzy, kde-format
+#| msgctxt "View modes"
+#| msgid "View Modes"
+msgid "View Modes:"
+msgstr "Режими на преглед"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/history/transferhistory.ui:77
+#, fuzzy, kde-format
+#| msgid "Select columns"
+msgid "Select Ranges:"
+msgstr "Избор на колони"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
+#: ui/history/transferhistory.ui:85
+#, kde-format
+msgid "Date"
+msgstr "Дата"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, rangeType)
+#: ui/history/transferhistory.ui:95
+#, kde-format
+msgid "Host"
+msgstr "Хост"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, searchBar)
+#: ui/history/transferhistory.ui:106
+#, fuzzy, kde-format
+#| msgid "History"
+msgid "Filter history"
+msgstr "История"
+
+#. i18n: ectx: property (text), widget (KLineEdit, searchBar)
+#: ui/history/transferhistory.ui:120
+#, kde-format
+msgctxt "delete selected transfer"
+msgid "Delete Selected"
+msgstr "Изтриване на избраното"
+
+#. i18n: ectx: property (text), widget (KLineEdit, searchBar)
+#: ui/history/transferhistory.ui:125
+#, kde-format
+msgid "Download"
+msgstr "Изтегляне"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:53
+#, kde-format
+msgid "Last Month"
+msgstr "Миналия месец"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:77
+#, kde-format
+msgid "Under 10MiB"
+msgstr "Под 10 MiB"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:80
+#, kde-format
+msgid "Between 10MiB and 50MiB"
+msgstr "Между 10 и 50 MiB"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:84
+#, kde-format
+msgid "Between 50MiB and 100MiB"
+msgstr "Между 50 и 100 MiB"
+
+#: ui/history/transferhistorycategorizeddelegate.cpp:89
+#, kde-format
+msgid "More than 100MiB"
+msgstr "Повече от 100 MiB"
+
+#: ui/history/transferhistoryitemdelegate.cpp:42
+#, kde-format
+msgid "Download again"
+msgstr "Изтегляне отново"
+
+#: ui/history/transferhistoryitemdelegate.cpp:47
+#, kde-format
+msgctxt "Delete selected history-item"
+msgid "Delete selected"
+msgstr "Изтриване на избраното"
+
+#: ui/history/transferhistoryitemdelegate.cpp:52
+#, kde-format
+msgid "Open file"
+msgstr "Отваряне на файл"
+
+#. i18n: ectx: Menu (file)
+#: ui/kgetui.rc:5
+#, kde-format
+msgid "&File"
+msgstr "&Файл"
+
+#. i18n: ectx: Menu (Downloads)
+#: ui/kgetui.rc:17
+#, kde-format
+msgid "&Downloads"
+msgstr "&Изтегляния"
+
+#. i18n: ectx: Menu (settings)
+#: ui/kgetui.rc:34
+#, kde-format
+msgid "&Settings"
+msgstr "&Настройки"
+
+#. i18n: ectx: Menu (help)
+#: ui/kgetui.rc:37
+#, kde-format
+msgid "&Help"
+msgstr "&Помощ"
+
+#. i18n: ectx: ToolBar (kget_toolbar)
+#: ui/kgetui.rc:40
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Главна лента с инструменти"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/linkview/importlinkdialog.ui:34
+#, kde-format
+msgid "File with &links to import:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, importLinks)
+#: ui/linkview/importlinkdialog.ui:50
+#, fuzzy, kde-format
+#| msgid "No Links"
+msgid "&Import Links"
+msgstr "Няма хипервръзки"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/linkview/importlinkdialog.ui:67
+#, kde-format
+msgid "Show:"
+msgstr "Показване:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showWebContent)
+#: ui/linkview/importlinkdialog.ui:77
+#, kde-format
+msgid "Show &web content"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, textFilter)
+#: ui/linkview/importlinkdialog.ui:115
+#, kde-format
+msgid "You can use wildcards for filtering."
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, textFilter)
+#: ui/linkview/importlinkdialog.ui:118
+#, kde-format
+msgid "Filter files here...."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, selectAll)
+#: ui/linkview/importlinkdialog.ui:189 ui/linkview/kget_linkview.cpp:337
+#, kde-format
+msgid "&Select All"
+msgstr "&Избиране на всичко"
+
+#. i18n: ectx: property (text), widget (QPushButton, deselectAll)
+#: ui/linkview/importlinkdialog.ui:205 ui/linkview/kget_linkview.cpp:338
+#, kde-format
+msgid "D&eselect All"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, invertSelection)
+#: ui/linkview/importlinkdialog.ui:221
+#, kde-format
+msgid "Inver&t Selection"
+msgstr "&Обръщане на избирането"
+
+#: ui/linkview/kget_linkview.cpp:41
+#, kde-format
+msgid "Import Links"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:58
+#, kde-format
+msgid "Contains"
+msgstr "Съдържа"
+
+#: ui/linkview/kget_linkview.cpp:59
+#, kde-format
+msgid "Does Not Contain"
+msgstr "Не съдържа"
+
+#: ui/linkview/kget_linkview.cpp:63
+#, fuzzy, kde-format
+#| msgctxt "all chunks"
+#| msgid "All:"
+msgid "All"
+msgstr "Всички:"
+
+#: ui/linkview/kget_linkview.cpp:64
+#, fuzzy, kde-format
+#| msgid "&Videos"
+msgid "Videos"
+msgstr "Ви&деозаписи"
+
+#: ui/linkview/kget_linkview.cpp:65
+#, kde-format
+msgid "Images"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:66
+#, fuzzy, kde-format
+#| msgid "A&udio"
+msgid "Audio"
+msgstr "&Звукозаписи"
+
+#: ui/linkview/kget_linkview.cpp:67
+#, fuzzy, kde-format
+#| msgid "A&rchives"
+msgid "Archives"
+msgstr "&Архиви"
+
+#: ui/linkview/kget_linkview.cpp:73
+#, kde-format
+msgctxt "of a filter, e.g. RegExp or Wildcard"
+msgid "Pattern Syntax"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:74
+#, kde-format
+msgid "Escape Sequences"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:77
+#, kde-format
+msgid "Regular Expression"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:87
+#, fuzzy, kde-format
+#| msgid "Name"
+msgctxt "name of a file"
+msgid "Name"
+msgstr "Име"
+
+#: ui/linkview/kget_linkview.cpp:117
+#, fuzzy, kde-format
+#| msgid "&Download"
+msgctxt "Download the items which have been selected"
+msgid "&Download"
+msgstr "&Изтегляне"
+
+#: ui/linkview/kget_linkview.cpp:157
+#, kde-format
+msgid "Auxiliary header"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:158
+#, kde-format
+msgid "File Name"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:160
+#, kde-format
+msgctxt "list header: type of file"
+msgid "File Type"
+msgstr ""
+
+#: ui/linkview/kget_linkview.cpp:161
+#, kde-format
+msgid "Location (URL)"
+msgstr "Местоположение (URL)"
+
+#: ui/linkview/kget_linkview.cpp:266
+#, kde-format
+msgid "Links in: %1 - KGet"
+msgstr "Връзка в: %1 - KGet"
+
+#: ui/linkview/kget_linkview.cpp:337
+#, fuzzy, kde-format
+#| msgid "Stop All"
+msgid "&Select All Filtered"
+msgstr "Маркиране на &всички"
+
+#: ui/linkview/kget_linkview.cpp:338
+#, fuzzy, kde-format
+#| msgid "Stop All"
+msgid "D&eselect All Filtered"
+msgstr "Маркиране на &всички"
+
+#: ui/linkview/kget_linkview.cpp:461
+#, kde-format
+msgid "Filter Column"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/metalinkcreator/commondata.ui:22
+#, kde-format
+msgid "Identity"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/metalinkcreator/commondata.ui:46
+#, kde-format
+msgid "Version:"
+msgstr "Версия:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: ui/metalinkcreator/commondata.ui:56
+#, kde-format
+msgid "Logo:"
+msgstr "Лого:"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, logo)
+#: ui/metalinkcreator/commondata.ui:63
+#, kde-format
+msgid "URL to the logo"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_13)
+#: ui/metalinkcreator/commondata.ui:73
+#, kde-format
+msgid "The language of the file"
+msgstr "Език на файла"
+
+#. i18n: ectx: property (text), widget (QLabel, label_13)
+#: ui/metalinkcreator/commondata.ui:76
+#, kde-format
+msgid "Language:"
+msgstr "Език:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_14)
+#: ui/metalinkcreator/commondata.ui:86
+#, kde-format
+msgid "Operating systems:"
+msgstr "Операционни системи:"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, os)
+#: ui/metalinkcreator/commondata.ui:93
+#, kde-format
+msgid "Supported OSes, separated with commas"
+msgstr "Поддържани операционни системи, разделени със запетаи"
+
+#. i18n: ectx: property (text), widget (QLabel, label_18)
+#: ui/metalinkcreator/commondata.ui:103
+#, kde-format
+msgid "Copyright:"
+msgstr "Авторски права:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_20)
+#: ui/metalinkcreator/commondata.ui:141
+#, kde-format
+msgid "Publisher:"
+msgstr "Издател:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: ui/metalinkcreator/commondata.ui:150
+#, kde-format
+msgid "Name:"
+msgstr "Име:"
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, pub_name)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, pub_url)
+#: ui/metalinkcreator/commondata.ui:157 ui/metalinkcreator/commondata.ui:177
+#, kde-format
+msgid "publisher"
+msgstr "издател"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, pub_name)
+#: ui/metalinkcreator/commondata.ui:160
+#, kde-format
+msgid "Name of the publisher"
+msgstr "Име на издателя"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, pub_url)
+#: ui/metalinkcreator/commondata.ui:180
+#, kde-format
+msgid "URL to the publisher"
+msgstr "URL-адрес на издателя"
+
+#: ui/metalinkcreator/dragdlg.cpp:69
+#, kde-format
+msgid "Import dropped files"
+msgstr ""
+
+#: ui/metalinkcreator/dragdlg.cpp:92 ui/metalinkcreator/filedlg.cpp:68
+#: ui/metalinkcreator/filedlg.cpp:178
+#, fuzzy, kde-format
+#| msgctxt "comma, to seperate members of a list"
+#| msgid ","
+msgctxt "comma, to separate members of a list"
+msgid ","
+msgstr ","
+
+#. i18n: ectx: attribute (title), widget (QWidget, Seite)
+#: ui/metalinkcreator/dragdlg.ui:21
+#, kde-format
+msgctxt "General options."
+msgid "General"
+msgstr "Общи"
+
+#. i18n: ectx: property (text), widget (QCheckBox, partialChecksums)
+#: ui/metalinkcreator/dragdlg.ui:27
+#, kde-format
+msgid "Create partial checksums"
+msgstr "Създаване на частични контролни суми"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/metalinkcreator/dragdlg.ui:40
+#, fuzzy, kde-format
+#| msgid "General"
+msgid "General URL:"
+msgstr "Общи"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/metalinkcreator/dragdlg.ui:66
+#, kde-format
+msgid ""
+"Automatically create checksums for the selected types. Keep in mind that "
+"this might take a while."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/metalinkcreator/dragdlg.ui:92
+#, kde-format
+msgid ""
+"Enter URLs here if all the dropped files are on that server and in the same "
+"directory. For each dropped file the URL would consist of the entered part "
+"and the filename."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/metalinkcreator/dragdlg.ui:102
+#, kde-format
+msgid "Types of the checksums:"
+msgstr "Видове контролни суми:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/metalinkcreator/dragdlg.ui:115
+#, kde-format
+msgid "Create checksums:"
+msgstr "Създаване на контролни суми:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, Seite_2)
+#: ui/metalinkcreator/dragdlg.ui:123
+#, kde-format
+msgctxt "These entries are optional."
+msgid "Optional"
+msgstr "Незадължително"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ui/metalinkcreator/dragdlg.ui:135
+#, kde-format
+msgid "Optional data:"
+msgstr "Незадължителни данни:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: ui/metalinkcreator/dragdlg.ui:160
+#, kde-format
+msgid "Enter information that all chosen files share."
+msgstr ""
+
+#: ui/metalinkcreator/filedlg.cpp:119
+#, kde-format
+msgid "File Properties"
+msgstr "Данни за файл"
+
+#: ui/metalinkcreator/filedlg.cpp:131
+#, kde-format
+msgid "Enter a filename."
+msgstr ""
+
+#: ui/metalinkcreator/filedlg.cpp:134
+#, kde-format
+msgid "The filename exists already, choose a different one."
+msgstr ""
+
+#: ui/metalinkcreator/filedlg.cpp:137
+#, kde-format
+msgid "Enter at least one URL."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: ui/metalinkcreator/filedlg.ui:24
+#, kde-format
+msgid "Required"
+msgstr "Задължително"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: ui/metalinkcreator/filedlg.ui:95
+#, kde-format
+msgid "Used Mirrors:"
+msgstr "Използвани огледала:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#: ui/metalinkcreator/filedlg.ui:103
+#, kde-format
+msgid "Recommended"
+msgstr "Препоръчително"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: ui/metalinkcreator/filedlg.ui:111
+#, kde-format
+msgid "File size (in bytes):"
+msgstr "Големина на файл (в байтове):"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/metalinkcreator/filedlg.ui:149 ui/signaturedlg.ui:34
+#, kde-format
+msgid "Verification:"
+msgstr "Проверка:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, Seite)
+#: ui/metalinkcreator/filedlg.ui:196
+#, kde-format
+msgid "Optional"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, add_local_file)
+#: ui/metalinkcreator/files.ui:26
+#, kde-format
+msgid "Adds local files adding a lot information automatically."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, add_local_file)
+#: ui/metalinkcreator/files.ui:29
+#, kde-format
+msgid "Add local files"
+msgstr "Добавяне на локални файлове"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/metalinkcreator/files.ui:66
+#, kde-format
+msgid "Adding local files..."
+msgstr "Добавяне на локални файлове..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ui/metalinkcreator/generalwidget.ui:23
+#, kde-format
+msgid "General information:"
+msgstr "Общи данни:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: ui/metalinkcreator/generalwidget.ui:30
+#, kde-format
+msgid "Here you can enter optional general information on the metalink."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/metalinkcreator/generalwidget.ui:61
+#, kde-format
+msgid "Origin:"
+msgstr "Произход:"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, origin)
+#: ui/metalinkcreator/generalwidget.ui:68
+#, kde-format
+msgid "Web URL to the metalink"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, labelDynamic)
+#: ui/metalinkcreator/generalwidget.ui:75
+#, kde-format
+msgid "Dynamic means that updated metalinks can be found at \"Origin\"."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelDynamic)
+#: ui/metalinkcreator/generalwidget.ui:78
+#, kde-format
+msgid "Dynamic:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, publishedGroupBox)
+#: ui/metalinkcreator/generalwidget.ui:110
+#, fuzzy, kde-format
+#| msgid "Next Update In:"
+msgid "Metalink published"
+msgstr "Следващо обновяване след:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_30)
+#. i18n: ectx: property (text), widget (QLabel, label_29)
+#: ui/metalinkcreator/generalwidget.ui:122
+#: ui/metalinkcreator/generalwidget.ui:231
+#, kde-format
+msgid "Date and time:"
+msgstr "Дата и час:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, use_publishedtimeoffset)
+#. i18n: ectx: property (text), widget (QCheckBox, use_updatedtimeoffset)
+#: ui/metalinkcreator/generalwidget.ui:136
+#: ui/metalinkcreator/generalwidget.ui:217
+#, kde-format
+msgid "Timezone offset:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: ui/metalinkcreator/generalwidget.ui:153
+#: ui/metalinkcreator/generalwidget.ui:210
+#, kde-format
+msgid "Negative offset:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, updatedGroupBox)
+#: ui/metalinkcreator/generalwidget.ui:182
+#, fuzzy, kde-format
+#| msgid "Next Update In:"
+msgid "Metalink updated"
+msgstr "Следващо обновяване след:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/metalinkcreator/introduction.ui:17
+#, kde-format
+msgid ""
+"This assistant allows you to create metalinks from scratch or base them on "
+"existing metalinks. A lot of the fields are optional or recommended, so "
+"enter them if desired. The minimum is a save location, at least one file and "
+"one URL."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/metalinkcreator/introduction.ui:48
+#, kde-format
+msgid "Save created Metalink at:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, createButton)
+#: ui/metalinkcreator/introduction.ui:78
+#, kde-format
+msgid "Create new Metalink"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, loadButton)
+#: ui/metalinkcreator/introduction.ui:88
+#, kde-format
+msgid "Load existing Metalink:"
+msgstr ""
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, load)
+#: ui/metalinkcreator/introduction.ui:98
+#, kde-format
+msgid "*.metalink *.meta4|Metalink file (*.metalink *.meta4)"
+msgstr ""
+
+#: ui/metalinkcreator/metalinkcreator.cpp:84
+#, kde-format
+msgid "Create a Metalink"
+msgstr ""
+
+#: ui/metalinkcreator/metalinkcreator.cpp:103
+#, kde-format
+msgid "Add at least one file."
+msgstr ""
+
+#: ui/metalinkcreator/metalinkcreator.cpp:105
+#, kde-format
+msgid "You need to set mirrors for the entries with an icon."
+msgstr ""
+
+#: ui/metalinkcreator/metalinkcreator.cpp:118
+#, kde-format
+msgid "General optional information for the metalink."
+msgstr ""
+
+#: ui/metalinkcreator/metalinkcreator.cpp:149
+#, fuzzy, kde-format
+#| msgid "Unable to create %1 : %2"
+msgid "Unable to load: %1"
+msgstr "Невъзможно създаване на %1 : %2"
+
+#: ui/metalinkcreator/metalinkcreator.cpp:176
+#, kde-format
+msgid "Metalink Version 4.0 file (*.meta4)"
+msgstr ""
+
+#: ui/metalinkcreator/metalinkcreator.cpp:176
+#, kde-format
+msgid "Metalink Version 3.0 file (*.metalink)"
+msgstr ""
+
+#: ui/metalinkcreator/metalinkcreator.cpp:183
+#, kde-format
+msgid "Define the saving location."
+msgstr ""
+
+#: ui/metalinkcreator/metalinkcreator.cpp:229
+#, kde-format
+msgctxt "file as in file on hard drive"
+msgid "Files"
+msgstr "Файлове"
+
+#. i18n: ectx: property (text), widget (QLabel, labelMirror)
+#: ui/mirror/mirroradddlg.ui:19
+#, kde-format
+msgid "Mirror:"
+msgstr "Огледало:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelConnections)
+#: ui/mirror/mirroradddlg.ui:26
+#, kde-format
+msgid "Number of connections:"
+msgstr "Брой връзки:"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, url)
+#: ui/mirror/mirroradddlg.ui:33
+#, kde-format
+msgid "Enter a URL"
+msgstr "Въведете URL-адрес"
+
+#. i18n: ectx: property (text), widget (QLabel, labelPriority)
+#: ui/mirror/mirroradddlg.ui:53
+#, kde-format
+msgid "Priority:"
+msgstr "Приоритет:"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, priority)
+#: ui/mirror/mirroradddlg.ui:60
+#, kde-format
+msgid "Optional: The priority of the mirror, 1 highest 999999 lowest."
+msgstr ""
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, priority)
+#: ui/mirror/mirroradddlg.ui:72 ui/mirror/mirrormodel.cpp:214
+#: ui/mirror/mirrormodel.cpp:232
+#, kde-format
+msgid "not specified"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelLocation)
+#: ui/mirror/mirroradddlg.ui:79
+#, kde-format
+msgid "Location:"
+msgstr "Местоположение:"
+
+#: ui/mirror/mirrormodel.cpp:388
+#, kde-format
+msgctxt "Mirror as in server, in url"
+msgid "Mirror"
+msgstr "Огледало"
+
+#: ui/mirror/mirrormodel.cpp:391
+#, kde-format
+msgctxt "The priority of the mirror"
+msgid "Priority"
+msgstr "Приоритет"
+
+#: ui/mirror/mirrormodel.cpp:396
+#, fuzzy, kde-format
+#| msgid "Connection closed"
+msgctxt "Number of parallel connections to the mirror"
+msgid "Connections"
+msgstr "Връзката е прекъсната"
+
+#: ui/mirror/mirrormodel.cpp:398
+#, kde-format
+msgctxt "Location = country"
+msgid "Location"
+msgstr "Местоположение"
+
+#: ui/mirror/mirrorsettings.cpp:55
+#, kde-format
+msgid "Add mirror"
+msgstr "Добавяне на огледало"
+
+#: ui/mirror/mirrorsettings.cpp:149
+#, kde-format
+msgid "Modify the used mirrors"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, closeButton)
+#: ui/mirror/mirrorsettings.ui:36
+#, kde-format
+msgid "PushButton"
+msgstr ""
+
+#: ui/newtransferdialog.cpp:322
+#, kde-format
+msgid "Select at least one source url."
+msgstr ""
+
+#: ui/newtransferdialog.cpp:340
+#, kde-format
+msgid "Files that exist already in the current folder have been marked."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/newtransferwidget.ui:30
+#, kde-format
+msgid "Destination:"
+msgstr "Назначение:"
+
+#. i18n: ectx: property (text), widget (QLabel, groupLabel)
+#: ui/newtransferwidget.ui:40
+#, kde-format
+msgid "Transfer group:"
+msgstr ""
+
+#: ui/renamefile.cpp:33
+#, kde-format
+msgid "Rename File"
+msgstr "Преименуване на файл"
+
+#: ui/renamefile.cpp:39
+#, kde-format
+msgid "Rename %1 to:"
+msgstr "Преименуване на %1 в:"
+
+#: ui/renamefile.cpp:42
+#, kde-format
+msgid "&Rename"
+msgstr "&Преименуване"
+
+#: ui/signaturedlg.cpp:42
+#, kde-format
+msgctxt "trust level"
+msgid "Unknown"
+msgstr "Непознато"
+
+#: ui/signaturedlg.cpp:42
+#, kde-format
+msgctxt "trust level"
+msgid "Undefined"
+msgstr "Неопределено"
+
+#: ui/signaturedlg.cpp:42
+#, kde-format
+msgctxt "trust level"
+msgid "Never"
+msgstr "Никога"
+
+#: ui/signaturedlg.cpp:42
+#, kde-format
+msgctxt "trust level"
+msgid "Marginal"
+msgstr "Ограничено"
+
+#: ui/signaturedlg.cpp:42
+#, kde-format
+msgctxt "trust level"
+msgid "Full"
+msgstr "Пълно"
+
+#: ui/signaturedlg.cpp:42
+#, kde-format
+msgctxt "trust level"
+msgid "Ultimate"
+msgstr ""
+
+#: ui/signaturedlg.cpp:49
+#, kde-format
+msgctxt ""
+"Signature here is meant in cryptographic terms, so the signature of a file."
+msgid "Signature of %1."
+msgstr ""
+
+#: ui/signaturedlg.cpp:72
+#, kde-format
+msgid "This option is not supported for the current transfer."
+msgstr ""
+
+#: ui/signaturedlg.cpp:99
+#, fuzzy, kde-format
+#| msgid "Source-File"
+msgid "Load Signature File"
+msgstr "Източник"
+
+#: ui/signaturedlg.cpp:100
+#, kde-format
+msgid "Detached OpenPGP ASCII signature (*.asc)"
+msgstr ""
+
+#: ui/signaturedlg.cpp:101
+#, kde-format
+msgid "Detached OpenPGP binary signature (*.sig)"
+msgstr ""
+
+#: ui/signaturedlg.cpp:154
+#, kde-format
+msgid "You need to define a signature."
+msgstr ""
+
+#: ui/signaturedlg.cpp:158
+#, kde-format
+msgid ""
+"No fingerprint could be found, check if the signature is correct or verify "
+"the download."
+msgstr ""
+
+#: ui/signaturedlg.cpp:192
+#, kde-format
+msgid "The key has been revoked."
+msgstr "Ключът е анулиран."
+
+#: ui/signaturedlg.cpp:196
+#, kde-format
+msgid "The key is disabled."
+msgstr "Ключът е изключен."
+
+#: ui/signaturedlg.cpp:200
+#, kde-format
+msgid "The key is invalid."
+msgstr "Ключът е неправилен."
+
+#: ui/signaturedlg.cpp:205
+#, kde-format
+msgid "The key is expired."
+msgstr "Клъчют е изтекъл."
+
+#: ui/signaturedlg.cpp:220
+#, kde-format
+msgid "The key is not to be trusted."
+msgstr "Ключът не е доверен."
+
+#: ui/signaturedlg.cpp:225
+#, kde-format
+msgid "The key is to be trusted marginally."
+msgstr "Ключът е с ограничена довереност."
+
+#: ui/signaturedlg.cpp:238
+#, kde-format
+msgid "Trust level of the key is unclear."
+msgstr "Довереността на ключа е неясна."
+
+#: ui/signaturedlg.cpp:267
+#, kde-format
+msgid "Unlimited"
+msgstr "Неограничено"
+
+#: ui/signaturedlg.cpp:285
+#, kde-format
+msgctxt "pgp signature is verified"
+msgid "Verified"
+msgstr "Проверено"
+
+#: ui/signaturedlg.cpp:288
+#, kde-format
+msgctxt "pgp signature is not verified"
+msgid "Failed"
+msgstr "Неуспешно"
+
+#: ui/signaturedlg.cpp:291
+#, kde-format
+msgid ""
+"Caution: Verification failed. Either you entered the wrong signature, or the "
+"data has been modified."
+msgstr ""
+
+#: ui/signaturedlg.cpp:296
+#, kde-format
+msgid ""
+"Verification not possible. Check the entered data, whether gpg-agent is "
+"running, or whether you have an Internet connection (for retrieving keys.)"
+msgstr ""
+
+#: ui/signaturedlg.cpp:313
+#, kde-format
+msgid "Feature is not supported, as KGet is not compiled with QPGME support."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, binaryLabel)
+#: ui/signaturedlg.ui:80
+#, kde-format
+msgid "Has binary PGP signature."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, asciiLabel)
+#: ui/signaturedlg.ui:87
+#, kde-format
+msgid "Ascii PGP signature:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, loadSignature)
+#: ui/signaturedlg.ui:112
+#, kde-format
+msgid "Load Signature"
+msgstr "Зареждане на подпис"
+
+#. i18n: ectx: property (text), widget (QPushButton, verify)
+#: ui/signaturedlg.ui:119
+#, kde-format
+msgid "Verify"
+msgstr "Проверка"
+
+#. i18n: ectx: property (title), widget (QGroupBox, keyGroup)
+#: ui/signaturedlg.ui:131
+#, kde-format
+msgid "Key"
+msgstr "Ключ"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/signaturedlg.ui:143
+#, kde-format
+msgid "Issuer:"
+msgstr "Издаващ орган:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/signaturedlg.ui:166
+#, kde-format
+msgid "E-Mail:"
+msgstr "Е-поща:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: ui/signaturedlg.ui:183
+#, kde-format
+msgid "Comment:"
+msgstr "Коментар:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/signaturedlg.ui:197
+#, kde-format
+msgid "Creation:"
+msgstr "Създаден на:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/signaturedlg.ui:214
+#, kde-format
+msgid "Expiration:"
+msgstr "Валиден до:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ui/signaturedlg.ui:255
+#, kde-format
+msgid "Trust:"
+msgstr "Надеждност:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: ui/signaturedlg.ui:296
+#, kde-format
+msgid "Fingerprint:"
+msgstr "Отпечатък:"
+
+#: ui/transferdetails.cpp:71
+#, kde-format
+msgid "Average speed: %1/s"
+msgstr "Средна скорост: %1/сек"
+
+#: ui/transferdetails.cpp:76
+#, kde-format
+msgid "%1 of %2"
+msgstr "%1% от %2"
+
+#. i18n: ectx: property (text), widget (QLabel, sourceLabel)
+#: ui/transferdetailsfrm.ui:51
+#, kde-format
+msgctxt "@label transfer source"
+msgid "Source:"
+msgstr "Източник:"
+
+#. i18n: ectx: property (text), widget (QLabel, statusLabel)
+#: ui/transferdetailsfrm.ui:114
+#, kde-format
+msgid "Status:"
+msgstr "Състояние:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/transferdetailsfrm.ui:165
+#, kde-format
+msgid "Remaining Time:"
+msgstr "Оставащо време:"
+
+#: ui/transfersettingsdialog.cpp:33
+#, fuzzy, kde-format
+#| msgid "Transfer Plugins"
+msgid "Transfer Settings for %1"
+msgstr ".."
+
+#: ui/transfersettingsdialog.cpp:167
+#, kde-format
+msgid ""
+"Changing the destination did not work, the destination stays unmodified."
+msgstr ""
+
+#: ui/transfersettingsdialog.cpp:167
+#, fuzzy, kde-format
+#| msgid "Destination"
+msgid "Destination unmodified"
+msgstr "Назначение"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: ui/transfersettingsdialog.ui:23
+#, kde-format
+msgid "Transfer Settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/transfersettingsdialog.ui:35
+#, fuzzy, kde-format
+#| msgid "Destination:"
+msgid "Download des&tination:"
+msgstr "Назначение:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelUpload)
+#: ui/transfersettingsdialog.ui:90
+#, fuzzy, kde-format
+#| msgid "Upload Limit:"
+msgid "&Upload limit:"
+msgstr "Ограничение за качване:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelDownload)
+#: ui/transfersettingsdialog.ui:100
+#, fuzzy, kde-format
+#| msgid "Download Limit:"
+msgid "Download &limit:"
+msgstr "Ограничение за изтегляне:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelShareRatio)
+#: ui/transfersettingsdialog.ui:110
+#, fuzzy, kde-format
+#| msgid "Maximum Share Ratio:"
+msgid "Ma&ximum share ratio:"
+msgstr "Макс. коефициент на споделяне:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, mirrors)
+#: ui/transfersettingsdialog.ui:139
+#, kde-format
+msgid "Modify the mirrors used for downloading."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, mirrors)
+#: ui/transfersettingsdialog.ui:142
+#, kde-format
+msgctxt "The available mirrors (servers) for downloading"
+msgid "Mirrors"
+msgstr "Огледала"
+
+#. i18n: ectx: property (text), widget (QPushButton, verification)
+#: ui/transfersettingsdialog.ui:162
+#, kde-format
+msgctxt "verification of the download (e.g. by using MD5)"
+msgid "Verification"
+msgstr "Проверка"
+
+#: ui/transfersview.cpp:126
+#, kde-format
+msgid "Select columns"
+msgstr "Избор на колони"
+
+#: ui/transfersview.cpp:314
+#, fuzzy, kde-format
+#| msgid "Transfer Plugins"
+msgid "Transfer Details"
+msgstr ".."
+
+#: ui/tray.cpp:48
+#, kde-format
+msgid "Download Manager"
+msgstr "Изтегляне на файлове"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/verificationadddlg.ui:19
+#, kde-format
+msgctxt "hash type as in md5t, sha1 etc."
+msgid "Hash type:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/verificationadddlg.ui:26
+#, fuzzy, kde-format
+#| msgid "Port:"
+msgctxt "hash as a hash of type md5, sha1 etc."
+msgid "Hash:"
+msgstr "Порт:"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, newHash)
+#: ui/verificationadddlg.ui:33
+#, kde-format
+msgid "Enter a hash key"
+msgstr ""
+
+#: ui/verificationdialog.cpp:38
+#, kde-format
+msgid "Add checksum"
+msgstr "Добавяне на контролна сума"
+
+#: ui/verificationdialog.cpp:94
+#, fuzzy, kde-format
+#| msgid "Transfer Plugins"
+msgid "Transfer Verification for %1"
+msgstr ".."
+
+#: ui/verificationdialog.cpp:206
+#, kde-format
+msgid "%1 was successfully verified."
+msgstr ""
+
+#: ui/verificationdialog.cpp:207
+#, kde-format
+msgid "Verification successful"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/verificationdialog.ui:65
+#, kde-format
+msgid "Verifying:"
+msgstr "Проверяване:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, verify)
+#: ui/verificationdialog.ui:118
+#, kde-format
+msgid "Verify the finished download with the selected checksum."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, verify)
+#: ui/verificationdialog.ui:121
+#, kde-format
+msgid "&Verify"
+msgstr "П&роверка"
+
+#. i18n: ectx: property (text), widget (QPushButton, closeButton)
+#: ui/verificationdialog.ui:147
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#~ msgctxt "Number of paralell connections to the mirror"
+#~ msgid "Connections"
+#~ msgstr "Връзки"
+
+#~ msgid "0123456789"
+#~ msgstr "0123456789"
+
+#~ msgid "Nepomuk"
+#~ msgstr "Nepomuk"
+
+#, fuzzy
+#~| msgid "Download completed"
+#~ msgid "Download selected transfer first"
+#~ msgstr "Изтеглянето завърши"
+
+#, fuzzy
+#~| msgid "Download completed"
+#~ msgid "Download selected transfer last"
+#~ msgstr "Изтеглянето завърши"
+
+#, fuzzy
+#~| msgctxt "Delete selected history-item"
+#~| msgid "Delete selected"
+#~ msgid "Delete selected group"
+#~ msgstr "Изтриване на избраното"
+
+#, fuzzy
+#~| msgid "Start / Resume All"
+#~ msgid "Starts / resumes all transfers"
+#~ msgstr "Начало / продължаване на всички"
+
+#, fuzzy
+#~| msgid "Start / Resume Selected"
+#~ msgid "Starts / resumes selected transfer"
+#~ msgstr "Начало / продължаване на избраните"
+
+#, fuzzy
+#~| msgid "Retry after:"
+#~ msgid "Pauses all transfers"
+#~ msgstr "Възобновяване след:"
+
+#~ msgid "Scanning data of <b>%1</b> :"
+#~ msgstr "Сканиране на данните за <b>%1</b> :"
+
+#~ msgid "Semantic Desktop"
+#~ msgstr "Семантичен работен плот"
+
+#~ msgctxt "on a question"
+#~ msgid "Yes all"
+#~ msgstr "Да за всичко"
+
+#~ msgctxt "on a question"
+#~ msgid "No all"
+#~ msgstr "Не за всичко"
+
+#, fuzzy
+#~| msgid "Download completed"
+#~ msgctxt "Download the items which have been selected"
+#~ msgid "&Download Checked"
+#~ msgstr "Изтеглянето завърши"
+
+#~ msgid "Number of downloads:"
+#~ msgstr "Брой изтегляния:"
+
+#~ msgctxt "filter: show all file types"
+#~ msgid "&All"
+#~ msgstr "&Всички"
+
+#~ msgid "Ima&ges"
+#~ msgstr "&Изображения"
+
+#~ msgid "Stop All"
+#~ msgstr "Спиране на всички"
+
+#~ msgid "Start / Resume"
+#~ msgstr "Начало / продължаване"
+
+#~ msgid "Stop"
+#~ msgstr "Спиране"
+
+#~ msgid "Downloads from the same server:"
+#~ msgstr "Изтегляния от същия сървър:"
+
+#~ msgid "Move &Up"
+#~ msgstr "На&горе"
+
+#~ msgid "Move &Down"
+#~ msgstr "На&долу"
+
+#~ msgid "After Completing Downloads"
+#~ msgstr "След приключване на изтеглянията"
+
+#~ msgid "Auto shutdown"
+#~ msgstr "Автоматично изключване на компютъра"
+
+#~ msgid "Auto disconnect"
+#~ msgstr "Автоматично изключване на връзката"
+
+#~ msgid "Startup"
+#~ msgstr "Зареждане"
+
+#~ msgid "Show splashscreen"
+#~ msgstr "Показване на начален екран"
+
+#~ msgid "Show drop target"
+#~ msgstr "Показване на кошница за пускане"
+
+#~ msgid " KiB"
+#~ msgstr " KiB"
+
+#~ msgid "Hiding drop target"
+#~ msgstr "Скриване на кошницата за пускане"
+
+#~ msgid "Checksums"
+#~ msgstr "Контролни суми"
+
+#~ msgid "Automatic verification:"
+#~ msgstr "Автоматична проверка:"
+
+#~ msgid "History"
+#~ msgstr "История"
+
+#, fuzzy
+#~| msgid "Error"
+#~ msgid "Error:"
+#~ msgstr "Грешка"
+
+#, fuzzy
+#~| msgid "Integration"
+#~ msgid "Information:"
+#~ msgstr "Интеграция"
+
+#, fuzzy
+#~| msgid "Error"
+#~ msgctxt "an error happened in connection with the user input"
+#~ msgid "Error:"
+#~ msgstr "Грешка"
+
+#, fuzzy
+#~| msgid "Files"
+#~ msgctxt "Files as in files on a server"
+#~ msgid "Files:"
+#~ msgstr "Файлове"
+
+#, fuzzy
+#~| msgid "Add Tracker"
+#~ msgctxt "Adds the item and reopens the dialog to add a further item"
+#~ msgid "Add more"
+#~ msgstr "&Добавяне"
+
+#~ msgid "List All Links"
+#~ msgstr "Показване на всички връзки"
+
+#~ msgid "No Links"
+#~ msgstr "Няма хипервръзки"
+
+#~ msgid "&Tools"
+#~ msgstr "&Инструменти"
+
+#~ msgid "There are no links in the active frame of the current HTML page."
+#~ msgstr "Няма хипервръзки в активния фрейм на текущата уеб страница."
+
+#, fuzzy
+#~| msgid "Add Tracker"
+#~ msgid "Add Tag"
+#~ msgstr "&Добавяне"
+
+#, fuzzy
+#~| msgid "Transfer Plugins"
+#~ msgid "Tag Settings for the groups"
+#~ msgstr ".."
+
+#, fuzzy
+#~| msgctxt "@action"
+#~| msgid "Settings"
+#~ msgid "Tag Settings"
+#~ msgstr "Настройки"
+
+#, fuzzy
+#~| msgctxt "Preview available"
+#~| msgid "Available"
+#~ msgid "Available tags:"
+#~ msgstr "Наличен"
+
+#~ msgid "Illegal token: %1"
+#~ msgstr "Невалиден символ: %1"
+
+#~ msgid "Decode error"
+#~ msgstr "Грешка при декодиране"
+
+#~ msgid "Unexpected end of input"
+#~ msgstr "Неочакван край на въвеждането"
+
+#~ msgid "Cannot convert %1 to an int"
+#~ msgstr "%1 не мое да се преобразува в цяло число"
+
+#, fuzzy
+#~| msgid "Torrent is incomplete!"
+#~ msgid "Torrent is incomplete."
+#~ msgstr "Торентът е незавършен!"
+
+#~ msgid "Cannot open %1 : %2"
+#~ msgstr "Не може да бъде отворен %1: %2"
+
+#~ msgid "Cannot open %1 for writing : readonly filesystem"
+#~ msgstr "%1 не може да бъде отворен за запис - файлът е само за четене"
+
+#~ msgid "Cannot expand file %1 : %2"
+#~ msgstr "Файл %1 не може да бъде разширен: %2"
+
+#~ msgid "Error : Reading past the end of the file %1"
+#~ msgstr "Грешка : Четене на край на файла %1"
+
+#~ msgid "Failed to seek file %1 : %2"
+#~ msgstr "Невъзможно създаване на %1 : %2"
+
+#~ msgid "Error reading from %1"
+#~ msgstr "Грешка при четене от %1"
+
+#~ msgid "Cannot preallocate diskspace : %1"
+#~ msgstr "Невъзможно преразпределяне на дисковото пространство : %1"
+
+#~ msgid "Cannot open index file %1 : %2"
+#~ msgstr "Не може да бъде отворен кеш файл %1 : %2"
+
+#~ msgid "Failed to open %1 : %2"
+#~ msgstr "Не може да бъде отворен %1: %2"
+
+#~ msgid "Failed to create %1 : %2"
+#~ msgstr "Невъзможно създаване на %1 : %2"
+
+#~ msgid "Cannot create file %1 : %2"
+#~ msgstr "Не може да бъде създаден файл %1: %2"
+
+#~ msgid "Failed to write first chunk to DND file : %1"
+#~ msgstr "Неуспешен запис на първото парче в DND файл : %1"
+
+#~ msgid "Failed to write last chunk to DND file : %1"
+#~ msgstr "Неуспешен запис на последното парче в DND файл : %1"
+
+#~ msgid "Cannot open file %1 : %2"
+#~ msgstr "Не може да бъде отворен файл %1 : %2"
+
+#~ msgid "OK"
+#~ msgstr "О&К"
+
+#~ msgid "Announcing"
+#~ msgstr "Съобщаване"
+
+#, fuzzy
+#~| msgid "Error: "
+#~ msgid "Error: %1"
+#~ msgstr "Грешка: "
+
+#, fuzzy
+#~| msgid "Unable to create %1 : %2"
+#~ msgid "Unable to resolve hostname %1"
+#~ msgstr "Невъзможно създаване на %1 : %2"
+
+#~ msgid "Invalid response from tracker"
+#~ msgstr "Невалиден отговор от координиращия сървър"
+
+#~ msgid "Invalid data from tracker"
+#~ msgstr "Невалидни данни от координиращия сървър"
+
+#~ msgid "Invalid tracker URL"
+#~ msgstr "Невалиден адрес на координиращия сървър"
+
+#~ msgid "Cannot bind to udp port %1 or the 10 following ports."
+#~ msgstr "Няма връзка с UDP порт %1 или следващите 10 порта."
+
+#~ msgid "Unknown client"
+#~ msgstr "Непознат клиент"
+
+#~ msgid "Unable to create %1 : %2"
+#~ msgstr "Невъзможно създаване на %1 : %2"
+
+#~ msgid "You are already downloading the torrent %1"
+#~ msgstr "Вече сваляте торент %1"
+
+#~ msgid "Not started"
+#~ msgstr "Не е стартиран"
+
+#~ msgid "Seeding completed"
+#~ msgstr "Качването завършено"
+
+#, fuzzy
+#~| msgid "Seeding"
+#~ msgctxt "Status of a torrent file"
+#~ msgid "Seeding"
+#~ msgstr "Качване"
+
+#~ msgid "Downloading"
+#~ msgstr "Сваляне"
+
+#~ msgid "Stopped"
+#~ msgstr "Спрян"
+
+#~ msgid "Allocating diskspace"
+#~ msgstr "Преразпределяне на дисково пространство"
+
+#, fuzzy
+#~| msgid "Currently downloading:"
+#~ msgid "Queued for downloading"
+#~ msgstr "В момента се свалят:"
+
+#~ msgid "Checking data"
+#~ msgstr "Проверка на данните"
+
+#~ msgid "Stopped. No space left on device."
+#~ msgstr "Спрян. Няма свободно място."
+
+#~ msgid "Cannot open file %1: %2"
+#~ msgstr "Не може да бъде отворен файл %1: %2"
+
+#~ msgid "Cannot create index file: %1"
+#~ msgstr "Не може да бъде създаден индексиращ файл: %1"
+
+#, fuzzy
+#~| msgid "Corrupted torrent!"
+#~ msgid "Corrupted torrent."
+#~ msgstr "Повреден торент!"
+
+#~ msgid " Unable to open torrent file %1 : %2"
+#~ msgstr " Не може да бъде отворен торент файл %1 : %2"
+
+#~ msgid "Parse Error"
+#~ msgstr "Грешка при обработка"
+
+#~ msgid "Cannot open file : %1 : %2"
+#~ msgstr "Не може да бъде отворен файл : %1: %2"
+
+#~ msgid "Not connected"
+#~ msgstr "Няма връзка"
+
+#~ msgid "Connection closed"
+#~ msgstr "Връзката е прекъсната"
+
+#~ msgid "Connected"
+#~ msgstr "Връзки"
+
+#~ msgid "Connecting"
+#~ msgstr "Връзки"
+
+#, fuzzy
+#~| msgid "Peer"
+#~ msgid "1 peer"
+#~ msgid_plural "%1 peers"
+#~ msgstr[0] "Потребител"
+#~ msgstr[1] "Потребител"
+
+#, fuzzy
+#~| msgid "No Links"
+#~ msgid "Not in use"
+#~ msgstr "Няма хипервръзки"
+
+#~ msgid "Cannot write to %1 : %2"
+#~ msgstr "Невъзможен запис в %1 : %2"
+
+#~ msgid "Cannot read from %1"
+#~ msgstr "Не може да се чете от %1"
+
+#~ msgid "Cannot open log file %1 : %2"
+#~ msgstr "Не може да бъде отворен журнален файл %1 : %2"
+
+#, fuzzy
+#~| msgid "Cannot create directory %1: %2"
+#~ msgid "Cannot create directory %1"
+#~ msgstr "Не може да се създаде директория %1: %2"
+
+#~ msgid "Cannot symlink %1 to %2: %3"
+#~ msgstr "Не може да се създаде препратка на %1 в %2: %3"
+
+#~ msgid "Cannot move %1 to %2: %3"
+#~ msgstr "Не може да се премести %1 в %2: %3"
+
+#~ msgid "Cannot copy %1 to %2: %3"
+#~ msgstr "Не може да се копира %1 в %2: %3"
+
+#~ msgid "Cannot delete %1: %2"
+#~ msgstr "Не може да се изтрие %1: %2"
+
+#~ msgid "Cannot create %1: %2"
+#~ msgstr "Не може да бъде създаден %1: %2"
+
+#~ msgid "Cannot calculate the filesize of %1: %2"
+#~ msgstr "Размерът на файла %1 не може да бъде изчислен: %2"
+
+#~ msgid "Cannot calculate the filesize : %1"
+#~ msgstr "Размерът на файла не може да бъде изчислен : %1"
+
+#~ msgid "Cannot expand file: %1"
+#~ msgstr "Файл %1 не може да бъде разширен"
+
+#~ msgid "Cannot seek in file : %1"
+#~ msgstr "Не може да се търси във файл: %1"
+
+#~ msgid "1 day "
+#~ msgid_plural "%1 days "
+#~ msgstr[0] "1 ден"
+#~ msgstr[1] "%1 дни"
+
+#~ msgid "General"
+#~ msgstr "Общи"
+
+#, fuzzy
+#~| msgid "Trackers"
+#~ msgid "Tracker"
+#~ msgstr "Координиращи сървъри"
+
+#~ msgid "Disk Input/Output"
+#~ msgstr "Диск - вх/изх:"
+
+#~ msgid "Add"
+#~ msgstr "Добавяне"
+
+#~ msgid "Delete"
+#~ msgstr "Изтриване"
+
+#~ msgid "Configure..."
+#~ msgstr "Настройване..."
+
+#~ msgid "Downloads"
+#~ msgstr "Сваляния"
+
+#, fuzzy
+#~| msgid "Number of retries:"
+#~ msgid "Name of the license"
+#~ msgstr "Брой опити:"
+
+#, fuzzy
+#~| msgid "Number of retries:"
+#~ msgid "URL to the license"
+#~ msgstr "Брой опити:"
+
+#~ msgid "Cannot remove torrent default tracker."
+#~ msgstr ""
+#~ "Не можете да премахнете координиращия сървър по подразбиране на торента."
+
+#~ msgid "You cannot add trackers to a private torrent"
+#~ msgstr "Не можете да добавяте координиращи сървъри към частен торент"
+
+#~ msgid "Cannot migrate %1 : %2"
+#~ msgstr "Не може да се премести %1: %2"
+
+#~ msgid "Select Folder to Save To"
+#~ msgstr "Избиране на папка, в която ще се записва"
+
+#~ msgid "Queued"
+#~ msgstr "В опашката"
+
+#~ msgid "Manual Announce"
+#~ msgstr "Ръчно известяване"
+
+#~ msgid "Scrape"
+#~ msgstr "Точки"
+
+#, fuzzy
+#~| msgctxt "@action"
+#~| msgid "Enter URL: "
+#~ msgid "Enter an url"
+#~ msgstr "Въведете адрес:"
+
+#~ msgid "Download URL again?"
+#~ msgstr "Повторно сваляне на адреса?"
+
+#, fuzzy
+#~| msgid "File"
+#~ msgctxt "file in a filsystem"
+#~ msgid "File"
+#~ msgstr "Файл"
+
+#~ msgid "Remaining Time"
+#~ msgstr "Ост. време"
+
+#~ msgid "KGet - Download Manager"
+#~ msgstr "KGet - сваляне на файлове"
+
+#~ msgid "kBi"
+#~ msgstr "кБ"
+
+#, fuzzy
+#~| msgid ""
+#~| "You will lose all data in this file, are you sure you want to do this ?"
+#~ msgid ""
+#~ "You will lose all data in these files, are you sure you want to do this?"
+#~ msgstr ""
+#~ "Ще загубите всички свалени данни. Сигурни ли сте, че искате да го "
+#~ "направите?"
+
+#~ msgid "Cannot expand file : %1"
+#~ msgstr "Файл %1 не може да бъде разширен"
+
+#~ msgid "Peers"
+#~ msgstr "Потребители"
+
+#~ msgid "Torrent has no announce or nodes field"
+#~ msgstr "Торентът няма попълнени съобщения или възли"
+
+#, fuzzy
+#~| msgid "Download completed"
+#~ msgid "Download Speed:"
+#~ msgstr "Изтеглянето завърши"
+
+#, fuzzy
+#~| msgid "Uploaded"
+#~ msgid "Upload Speed:"
+#~ msgstr "Качени"
+
+#, fuzzy
+#~| msgid "You can not delete this group!"
+#~ msgid "You can not delete this group."
+#~ msgstr "Не можете да изтривате тази група!"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "&Delete"
+#~ msgstr "Изтриване"
+
+#, fuzzy
+#~| msgid "Cancel"
+#~ msgid "&Cancel"
+#~ msgstr "&Отмяна"
+
+#~ msgid "Default Download Folders"
+#~ msgstr "Стандартна директория"
+
+#~ msgid "Default Folder"
+#~ msgstr "Стандартна директория"
+
+#~ msgid "Edit"
+#~ msgstr "Редактиране"
+
+#, fuzzy
+#~| msgid "Default Folder"
+#~ msgid "extRegExp, defaultFolder"
+#~ msgstr "Стандартна директория"
+
+#~ msgid "Downloading.."
+#~ msgstr "Изтегляне.."
+
+#~ msgctxt "transfer state: downloading"
+#~ msgid "Downloading.."
+#~ msgstr "Изтегляне.."
+
+#~ msgid "Assigned Peers"
+#~ msgstr "Приети връзки"
+
+#~ msgid "%1 GB"
+#~ msgstr " %1 ГБ"
+
+#~ msgid "%1 MB"
+#~ msgstr " %1 МБ"
+
+#~ msgid "%1 KB"
+#~ msgstr " %1 кБ"
+
+#~ msgid "%1 B"
+#~ msgstr " %1 Б"
+
+#~ msgid "%1 KB/s"
+#~ msgstr " %1 кБ/сек "

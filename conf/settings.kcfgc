@@ -1,0 +1,5 @@
+ClassName=Settings
+File=kget.kcfg
+Mutators=true
+Singleton=true
+Visibility=Q_DECL_EXPORT

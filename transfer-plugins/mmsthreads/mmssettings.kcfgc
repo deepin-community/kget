@@ -1,0 +1,5 @@
+ClassName=MmsSettings
+File=kget_mmsfactory.kcfg
+Mutators=true
+Singleton=true
+Visibility=Q_DECL_EXPORT

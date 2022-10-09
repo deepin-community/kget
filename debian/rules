@@ -1,0 +1,25 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+l10npkgs_firstversion_ok := 4:17.08.3-4~
+include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
+
+%:
+	dh $@ --with kf5
+
+override_dh_auto_configure:
+	dh_auto_configure -Skf5 -- -DBUILD_TESTING=OFF
+
+override_dh_auto_test:
+	:
+
+execute_after_dh_auto_install:
+	# remove dev .so symlinks, we aren't shipping dev suff for these
+	find debian/kget -name '*.so' -type l -print -delete
+	# remove translations of unbuilt plasma stuff
+	rm -f debian/kget/usr/share/locale/*/LC_MESSAGES/plasma_applet_kget.mo
+	rm -f debian/kget/usr/share/locale/*/LC_MESSAGES/plasma_runner_kget.mo
+
+override_dh_gencontrol: l10npkgs_firstversion_ok
+	dh_gencontrol

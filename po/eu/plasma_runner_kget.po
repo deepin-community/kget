@@ -1,0 +1,49 @@
+# Translation of plasma_runner_kget.po to Euskara/Basque (eu).
+# Copyright (C) 2018-2019, This file is copyright:
+# This file is distributed under the same license as the kget package.
+# KDE euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Gontzal M. Pujana <juchuf@gmail.com>, 2018.
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: kget\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-05-20 03:10+0200\n"
+"PO-Revision-Date: 2019-07-15 22:41+0200\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 19.04.3\n"
+
+#: kgetrunner.cpp:32
+#, kde-format
+msgid "Find all links in :q: and download them with KGet."
+msgstr ""
+"Aurkitu :q: barruan dauden esteka guztiak eta haiek jaitsi KGet erabiliz."
+
+#: kgetrunner.cpp:56
+#, kde-format
+msgid "Download %1 with KGet."
+msgstr "Jaitsi %1 KGet erabiliz."
+
+#: kgetrunner.cpp:59
+#, kde-format
+msgid "Download %1 link with KGet."
+msgid_plural "Download %1 links with KGet."
+msgstr[0] "Jaitsi esteka %1 KGet erabiliz."
+msgstr[1] "Jaitsi %1 esteka KGet erabiliz."
+
+#: kgetrunner.cpp:79 kgetrunner.cpp:107
+#, kde-format
+msgid ""
+"<p>KGet Runner could not communicate with KGet.</p><p style=\"font-size: "
+"small;\">Response from DBus:<br/>%1</p>"
+msgstr ""
+"<p>KGet exekutatzailea ezin da KGet-ekin komunikatu.</p><p style=\"font-"
+"size: small;\">DBus-etik erantzuna:<br/>%1</p>"

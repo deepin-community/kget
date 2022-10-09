@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop-application">
+  <id>org.kde.kget</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-2.0+</project_license>
+  <name>KGet</name>
+  <name xml:lang="ast">KGet</name>
+  <name xml:lang="ca">KGet</name>
+  <name xml:lang="ca-valencia">KGet</name>
+  <name xml:lang="cs">KGet</name>
+  <name xml:lang="da">KGet</name>
+  <name xml:lang="de">KGet</name>
+  <name xml:lang="el">KGet</name>
+  <name xml:lang="en-GB">KGet</name>
+  <name xml:lang="es">KGet</name>
+  <name xml:lang="et">KGet</name>
+  <name xml:lang="eu">KGet</name>
+  <name xml:lang="fi">KGet</name>
+  <name xml:lang="fr">KGet</name>
+  <name xml:lang="gl">KGet</name>
+  <name xml:lang="ia">KGet</name>
+  <name xml:lang="id">KGet</name>
+  <name xml:lang="it">KGet</name>
+  <name xml:lang="ko">KGet</name>
+  <name xml:lang="nl">KGet</name>
+  <name xml:lang="pl">KGet</name>
+  <name xml:lang="pt">KGet</name>
+  <name xml:lang="pt-BR">KGet</name>
+  <name xml:lang="ru">KGet</name>
+  <name xml:lang="sk">KGet</name>
+  <name xml:lang="sl">KGet</name>
+  <name xml:lang="sv">Kget</name>
+  <name xml:lang="uk">KGet</name>
+  <name xml:lang="x-test">xxKGetxx</name>
+  <name xml:lang="zh-CN">KGet</name>
+  <name xml:lang="zh-TW">KGet</name>
+  <summary>Download Manager</summary>
+  <summary xml:lang="ast">Xestor de descargues</summary>
+  <summary xml:lang="ca">Gestor de baixades</summary>
+  <summary xml:lang="ca-valencia">Gestor de baixades</summary>
+  <summary xml:lang="cs">Správce stahování</summary>
+  <summary xml:lang="da">Downloadhåndtering</summary>
+  <summary xml:lang="de">Download-Verwaltung</summary>
+  <summary xml:lang="el">Διαχειριστής λήψεων</summary>
+  <summary xml:lang="en-GB">Download Manager</summary>
+  <summary xml:lang="es">Gestor de descargas</summary>
+  <summary xml:lang="et">Allalaadimiste haldur</summary>
+  <summary xml:lang="eu">Deskarga kudeatzailea</summary>
+  <summary xml:lang="fi">Lataustenhallinta</summary>
+  <summary xml:lang="fr">Gestionnaire de téléchargement</summary>
+  <summary xml:lang="gl">Xestor de descargas</summary>
+  <summary xml:lang="ia">Gerente del discargamento</summary>
+  <summary xml:lang="id">Unduh Manager</summary>
+  <summary xml:lang="it">Gestore degli scaricamenti</summary>
+  <summary xml:lang="ko">다운로드 관리자</summary>
+  <summary xml:lang="nl">Downloadbeheerder</summary>
+  <summary xml:lang="pl">Zarządzanie pobieraniem</summary>
+  <summary xml:lang="pt">Gestor de Transferências</summary>
+  <summary xml:lang="pt-BR">Gerenciador de downloads</summary>
+  <summary xml:lang="ru">Диспетчер загрузок</summary>
+  <summary xml:lang="sk">Správca sťahovania</summary>
+  <summary xml:lang="sl">Upravljalnik prenosov s strežnikov</summary>
+  <summary xml:lang="sv">Nerladdningshanterare</summary>
+  <summary xml:lang="uk">Керування отриманням даних</summary>
+  <summary xml:lang="x-test">xxDownload Managerxx</summary>
+  <summary xml:lang="zh-CN">下载管理器</summary>
+  <summary xml:lang="zh-TW">下載管理器</summary>
+  <description>
+    <p>
+     KGet is a versatile and user-friendly download manager.
+    </p>
+    <p xml:lang="ast">KGet ye un xestor de descargues versátil y amañosu.</p>
+    <p xml:lang="ca">El KGet és un gestor de baixades versàtil i fàcil d'emprar.</p>
+    <p xml:lang="ca-valencia">El KGet és un gestor de baixades versàtil i fàcil d'emprar.</p>
+    <p xml:lang="da">KGet er en alsidig og brugervenlig downloadhåndtering.</p>
+    <p xml:lang="de">Ein vielseitiges und einfach zu benutzendes Verwaltungsprogramm zum Herunterladen.</p>
+    <p xml:lang="el">Το KGet είναι ένας ευέλικτος και φιλικός διαχειριστής λήψεων.</p>
+    <p xml:lang="en-GB">KGet is a versatile and user-friendly download manager.</p>
+    <p xml:lang="es">KGet es un gestor de descargas versátil y amigable.</p>
+    <p xml:lang="et">KGet on töökindel ja kasutajasõbralik allalaadimiste haldur.</p>
+    <p xml:lang="eu">KGet trebezia anitzeko deskarga kudeatzaile lagunkoia da.</p>
+    <p xml:lang="fi">KGet on monipuolinen ja käyttäjäystävällinen lataustenhallintaohjelma.</p>
+    <p xml:lang="fr">KGet est un gestionnaire de téléchargements intuitif et polyvalent</p>
+    <p xml:lang="gl">KGet é un xestor de descargar versátil e fácil de usar.</p>
+    <p xml:lang="ia">KGet es un gerente per discargar versatile e amical.</p>
+    <p xml:lang="id">KGet adalah unduh manager yang serbaguna dan mudah digunakan.</p>
+    <p xml:lang="it">KGet è un gestore degli scaricamenti versatile e facile da usare.</p>
+    <p xml:lang="ko">KGet은 기능이 다양하고 사용하기 편리한 다운로드 관리자입니다.</p>
+    <p xml:lang="nl">KGet is een veelzijdige en gebruikersvriendelijke downloadbeheerder.</p>
+    <p xml:lang="pl">KGet jest wszechstronnym i przyjaznym użytkownikowi programem do zarządzania pobieraniem.</p>
+    <p xml:lang="pt">O KGet é um gestor de transferências versátil e amigável.</p>
+    <p xml:lang="pt-BR">KGet é um gerenciador de downloads versátil e amigável.</p>
+    <p xml:lang="sk">KGet je univerzálny a ľahko použiteľný správca sťahovania.</p>
+    <p xml:lang="sl">KGet je vsestranski in uporabniku prijazen upravljalnik prenosov datotek.</p>
+    <p xml:lang="sv">Kget är en mångsidig och lättanvänd nerladdningshanterare av filer.</p>
+    <p xml:lang="uk">KGet — гнучка і зручна програма для отримання даних з мережі.</p>
+    <p xml:lang="x-test">xxKGet is a versatile and user-friendly download manager.xx</p>
+    <p xml:lang="zh-CN">KGet 是一个功能多样且用户友好的下载管理器。</p>
+    <p xml:lang="zh-TW">KGet 是款多功能且使用者友善的下載管理器。</p>
+    <p>Features:</p>
+    <p xml:lang="ast">Carauterístiques:</p>
+    <p xml:lang="ca">Característiques:</p>
+    <p xml:lang="ca-valencia">Característiques:</p>
+    <p xml:lang="cs">Vlastnosti:</p>
+    <p xml:lang="da">Funktioner:</p>
+    <p xml:lang="de">Funktionen:</p>
+    <p xml:lang="el">Χαρακτηριστικά:</p>
+    <p xml:lang="en-GB">Features:</p>
+    <p xml:lang="es">Funcionalidades:</p>
+    <p xml:lang="et">Omadused:</p>
+    <p xml:lang="eu">Eginbideak:</p>
+    <p xml:lang="fi">Ominaisuudet:</p>
+    <p xml:lang="fr">Fonctionnalités :</p>
+    <p xml:lang="gl">Funcionalidades:</p>
+    <p xml:lang="ia">Characteristicas:</p>
+    <p xml:lang="id">Fitur-fitur:</p>
+    <p xml:lang="it">Caratteristiche:</p>
+    <p xml:lang="ko">기능:</p>
+    <p xml:lang="nl">Mogelijkheden:</p>
+    <p xml:lang="pl">Możliwości:</p>
+    <p xml:lang="pt">Funcionalidades:</p>
+    <p xml:lang="pt-BR">Funcionalidades:</p>
+    <p xml:lang="ru">Возможности:</p>
+    <p xml:lang="sk">Funkcie:</p>
+    <p xml:lang="sl">Možnosti:</p>
+    <p xml:lang="sv">Funktioner:</p>
+    <p xml:lang="uk">Можливості:</p>
+    <p xml:lang="x-test">xxFeatures:xx</p>
+    <p xml:lang="zh-CN">功能：</p>
+    <p xml:lang="zh-TW">功能：</p>
+    <ul>
+      <li>Downloading files from FTP and HTTP(S) sources.</li>
+      <li xml:lang="ast">Descarga de ficheros dende oríxenes FTP, HTTP y HTTPS.</li>
+      <li xml:lang="ca">Baixa fitxers des de fonts FTP i HTTP/S.</li>
+      <li xml:lang="ca-valencia">Baixa fitxers des de fonts FTP i HTTP/S.</li>
+      <li xml:lang="da">Download af filer fra FTP- og HTTP(S)-kilder.</li>
+      <li xml:lang="de">Herunterladen von Dateien aus FTP- und HTTP(s)-Adressen.</li>
+      <li xml:lang="el">Κάνει λήψη αρχείων από ftp και http(s) πηγές.</li>
+      <li xml:lang="en-GB">Downloading files from FTP and HTTP(S) sources.</li>
+      <li xml:lang="es">Descarga de archivos de fuentes FTP y HTTP(S).</li>
+      <li xml:lang="et">Failide allalaadimine FTP ja HTTP(S) allikatest.</li>
+      <li xml:lang="eu">Jaitsi fitxategiak FTP eta HTTP(S) sorburuetatik.</li>
+      <li xml:lang="fi">Tiedostojen lataus FTP- ja HTTP(S)-lähteistä.</li>
+      <li xml:lang="fr">Téléchargement de fichiers depuis des sources FTP et HTTP(S).</li>
+      <li xml:lang="gl">Descargar ficheiros de fontes FTP, HTTP e HTTPS.</li>
+      <li xml:lang="ia">Discargante files ex fontes FTP e HTTP(S). </li>
+      <li xml:lang="id">Mengunduh file dari sumber-sumber FTP dan HTTP(S)</li>
+      <li xml:lang="it">Scaricamento di file da fonti FTP e HTTP(S).</li>
+      <li xml:lang="ko">FTP, HTTP(S)에서 파일을 다운로드합니다.</li>
+      <li xml:lang="nl">Downloaden van bestanden uit FTP en HTTP(S) bronnen.</li>
+      <li xml:lang="pl">Pobieranie plików ze źródeł FTP oraz HTTP(S)</li>
+      <li xml:lang="pt">Transferência de ficheiros de fontes em FTP ou HTTP(S).</li>
+      <li xml:lang="pt-BR">Download de arquivos com origem em FTP e HTTP(S).</li>
+      <li xml:lang="sk">Sťahovanie súborov zo zdrojov FTP a HTTP(S).</li>
+      <li xml:lang="sl">Prenos datotek iz virov FTP in HTTP (S).</li>
+      <li xml:lang="sv">Nerladdning av filer från FTP- och HTTP(S)-källor.</li>
+      <li xml:lang="uk">Отримання файлів з джерел FTP та HTTP(S).</li>
+      <li xml:lang="x-test">xxDownloading files from FTP and HTTP(S) sources.xx</li>
+      <li xml:lang="zh-CN">从 FTP 和 HTTP(S) 源下载文件。</li>
+      <li xml:lang="zh-TW">從 FTP 和 HTTP(S) 來源下載檔案。</li>
+      <li>Pausing and resuming of downloading files, as well as the ability to restart a download.</li>
+      <li xml:lang="ast">Posa y sigue colos ficheros de descarga, amás de poder reaniciar les descargues.</li>
+      <li xml:lang="ca">Fa pausa i reprèn la baixada de fitxers, així com la possibilitat de reiniciar una baixada.</li>
+      <li xml:lang="ca-valencia">Fa pausa i reprén la baixada de fitxers, així com la possibilitat de reiniciar una baixada.</li>
+      <li xml:lang="da">Sæt downloadede filer på pause og genoptag dem, og muligheden for at genstarte en download.</li>
+      <li xml:lang="de">Anhalten und Fortsetzen des Herunterladens von Dateien, außerdem gibt es auch die Möglichkeit, das Herunterladen neu zu starten.</li>
+      <li xml:lang="el">Παύει και συνεχίζει τη λήψη αρχείων, και έχει τη δυνατότητα επανάληψης μιας λήψης.</li>
+      <li xml:lang="en-GB">Pausing and resuming of downloading files, as well as the ability to restart a download.</li>
+      <li xml:lang="es">Pausa y reanudación de los archivos en descarga, así como la posibilidad de reiniciar descargas.</li>
+      <li xml:lang="et">Failide allalaadimise peatamine ja taasalustamine, samuti võimalus allalaadimist taaskäivitada.</li>
+      <li xml:lang="eu">Fitxategi jaitsierak eten eta berrekitea, baita jaitsiera bat berriz hasteko gaitasuna ere.</li>
+      <li xml:lang="fi">Tiedostojen latauksen keskeytys ja jatkaminen kuten myös latauksen uudelleenkäynnistys.</li>
+      <li xml:lang="fr">Mise en pause et reprise du téléchargement de fichiers, possibilité de relancer un téléchargement.</li>
+      <li xml:lang="gl">Pausa e continuación de descargas de ficheiros, así como a posibilidade de reiniciar a descarga.</li>
+      <li xml:lang="ia">Pausar e resumer discargamento de files, assi comole habilitate de reinitiar un discargamento.</li>
+      <li xml:lang="id">Menjeda dan melanjutkan pengunduhan file-file, begitu pula kemampuan untuk memulai kembali sebuah unduh-an.</li>
+      <li xml:lang="it">Interruzione e ripresa dello scaricamento dei file, oltre alla capacità di riavviare uno scaricamento.</li>
+      <li xml:lang="ko">파일 다운로드를 일시 정지 및 재시작할 수 있습니다.</li>
+      <li xml:lang="nl">Pauzeren en hervatten van downloaden van bestanden, evenals de mogelijkheid om een download opnieuw te starten.</li>
+      <li xml:lang="pl">Wstrzymywanie i wznawianie pobieranych plików, a także możliwość pobrania ich na nowo.</li>
+      <li xml:lang="pt">Pausa e continuação dos ficheiros transferidos, assim como a capacidade de reiniciar uma transferência.</li>
+      <li xml:lang="pt-BR">Pausa e continuação de arquivos durante o download, assim como a capacidade de reiniciar uma transferência.</li>
+      <li xml:lang="sk">Pozastavenie a obnovenie sťahovania súborov, ako aj možnosť reštartovania sťahovania.</li>
+      <li xml:lang="sl">Zaustavitev in nadaljevanje prenosa datotek ter možnost ponovnega zagona prenosa.</li>
+      <li xml:lang="sv">Pausa och återuppta nerladdning av filer, samt möjlighet att starta om en nerladdning.</li>
+      <li xml:lang="uk">Можливість призупинення та відновлення отримання файлів, а також можливість перезапустити отримання.</li>
+      <li xml:lang="x-test">xxPausing and resuming of downloading files, as well as the ability to restart a download.xx</li>
+      <li xml:lang="zh-CN">暂停和继续文件下载，还能够重新开始下载。</li>
+      <li xml:lang="zh-TW">暫停及繼續下載檔案，以及重新開始下載的能力。</li>
+      <li>Tells lots of information about current and pending downloads.</li>
+      <li xml:lang="ast">Diz muncha información tocante a les descargues actuales y pendientes.</li>
+      <li xml:lang="ca">Dóna molta informació sobre les baixades actuals i pendents.</li>
+      <li xml:lang="ca-valencia">Dóna molta informació sobre les baixades actuals i pendents.</li>
+      <li xml:lang="da">Viser massere af information om nuværende og afventende downloads.</li>
+      <li xml:lang="de">Viele Informationen über aktuelle und anstehende Downloads.</li>
+      <li xml:lang="el">Δίνει πολλές πληροφορίες για τις τρέχουσες και τις εκκρεμείς λήψεις.</li>
+      <li xml:lang="en-GB">Tells lots of information about current and pending downloads.</li>
+      <li xml:lang="es">Muestra gran cantidad de información sobre las descargas actuales y pendientes.</li>
+      <li xml:lang="et">Mitmesuguse teabe pakkumine käimasolevate ja eesootavate allalaadimiste kohta.</li>
+      <li xml:lang="eu">Informazio asko ematen du uneko eta zain dauden deskargei buruz.</li>
+      <li xml:lang="fi">Antaa runsaasti tietoa käynnistä olevasta ja odottavista latauksista.</li>
+      <li xml:lang="fr">Affichage de nombreuses informations relatives aux téléchargements en cours et en attente.</li>
+      <li xml:lang="gl">Fornece unha morea de información sobre as descargas actuais e pendentes.</li>
+      <li xml:lang="ia">Dice multe information re discargamentos currente e pendente.</li>
+      <li xml:lang="id">Memberikan banyak informasi tentang unduh-an yang ada sekarang dan yang sedang dihentikan.</li>
+      <li xml:lang="it">Fornisce molte informazioni sugli scaricamenti in corso e in attesa.</li>
+      <li xml:lang="ko">현재 및 진행 예정인 다운로드 항목에 대한 정보를 제공합니다.</li>
+      <li xml:lang="nl">Vertelt veel informatie over huidige en in behandeling zijnde downloads.</li>
+      <li xml:lang="pl">Mówi wiele informacji o obecnych i oczekujących pobieraniach.</li>
+      <li xml:lang="pt">Devolve bastantes informações sobre as transferências actuais e pendentes.</li>
+      <li xml:lang="pt-BR">Retorna diversas informações sobre os downloads atuais e pendentes.</li>
+      <li xml:lang="sk">Poskytuje veľa informácií o aktuálnych a čakajúcich stiahnutiach.</li>
+      <li xml:lang="sl">Sporoča veliko informacij o trenutnih in čakajočih prenosih.</li>
+      <li xml:lang="sv">Ger mängder av information om aktuella och väntande nerladdningar.</li>
+      <li xml:lang="uk">Можливість отримання широкого спектра даних щодо поточного сеансу отримання та завдань з отримання даних з черги.</li>
+      <li xml:lang="x-test">xxTells lots of information about current and pending downloads.xx</li>
+      <li xml:lang="zh-CN">显示当前和队列下载的许多信息。</li>
+      <li xml:lang="zh-TW">顯示關於目前和待下載項目的詳細資訊。</li>
+      <li>Embedding into system tray.</li>
+      <li xml:lang="ast">Incrustación na bandexa del sistema.</li>
+      <li xml:lang="ca">Està incrustat a la safata del sistema.</li>
+      <li xml:lang="ca-valencia">Està incrustat a la safata del sistema.</li>
+      <li xml:lang="da">Indlejring i systembakken.</li>
+      <li xml:lang="de">Eingebettet in den Systemabschnitt der Kontrollleiste.</li>
+      <li xml:lang="el">Ενσωμάτωση στο πλαίσιο συστήματος.</li>
+      <li xml:lang="en-GB">Embedding into system tray.</li>
+      <li xml:lang="es">Se puede empotrar en la bandeja del sistema.</li>
+      <li xml:lang="et">Põimitud süsteemisalve.</li>
+      <li xml:lang="eu">Sistema-erretiluan kapsulatzea.</li>
+      <li xml:lang="fi">Upotus järjestelmän ilmoitusalueelle.</li>
+      <li xml:lang="fr">Intégration dans la boîte à miniatures.</li>
+      <li xml:lang="gl">Integración coa zona de notificacións.</li>
+      <li xml:lang="ia">Incorporate in le tabuliero de systema.</li>
+      <li xml:lang="id">Menanamkan ke dalam baki sistem.</li>
+      <li xml:lang="it">Integrato nel vassoio di sistema.</li>
+      <li xml:lang="ko">시스템 트레이에 통합됩니다.</li>
+      <li xml:lang="nl">Ingebed in het systeemvak.</li>
+      <li xml:lang="pl">Osadzanie na tacce systemowej.</li>
+      <li xml:lang="pt">Incorporação na bandeja do sistema.</li>
+      <li xml:lang="pt-BR">Incorporação na área de notificação.</li>
+      <li xml:lang="sk">Vloženie do systémovej lišty.</li>
+      <li xml:lang="sl">Vdelan v sistemsko vrstico.</li>
+      <li xml:lang="sv">Inbäddning i systembrickan.</li>
+      <li xml:lang="uk">Можливість вбудовування до лотка системи.</li>
+      <li xml:lang="x-test">xxEmbedding into system tray.xx</li>
+      <li xml:lang="zh-CN">嵌入到系统托盘。</li>
+      <li xml:lang="zh-TW">嵌入到系統通知區塊。</li>
+      <li>Integration with the Konqueror web browser.</li>
+      <li xml:lang="ast">Integración col restolador web Konqueror.</li>
+      <li xml:lang="ca">S'integra amb el navegador web Konqueror.</li>
+      <li xml:lang="ca-valencia">S'integra amb el navegador web Konqueror.</li>
+      <li xml:lang="da">Integration med Konqueror-webbrowseren.</li>
+      <li xml:lang="de">Integration mit dem Internet-Browser Konqueror.</li>
+      <li xml:lang="el">Ολοκλήρωση με τον περιηγητή ιστού Konqueror.</li>
+      <li xml:lang="en-GB">Integration with the Konqueror web browser.</li>
+      <li xml:lang="es">Integración con el navegador web Konqueror.</li>
+      <li xml:lang="et">Põimitud veebilehitsejaga Konqueror.</li>
+      <li xml:lang="eu">Integrazioa Konqueror web arakatzailearekin.</li>
+      <li xml:lang="fi">Yhdistyy Konqueror-verkkoselaimeen.</li>
+      <li xml:lang="fr">Intégration avec le navigateur Internet Konqueror.</li>
+      <li xml:lang="gl">Integración co navegador web Konqueror.</li>
+      <li xml:lang="ia">Integration  con le navigator web Konqueror.</li>
+      <li xml:lang="id">Integrasi dengan web browser Konqueror.</li>
+      <li xml:lang="it">Integrazione con il browser web Konqueror.</li>
+      <li xml:lang="ko">Konqueror 웹 브라우저에 통합됩니다.</li>
+      <li xml:lang="nl">Integratie met de webbrowser Konqueror.</li>
+      <li xml:lang="pl">Integracja z przeglądarką internetową Konqueror</li>
+      <li xml:lang="pt">Integração com o navegador Web Konqueror.</li>
+      <li xml:lang="pt-BR">Integração com o navegador Konqueror.</li>
+      <li xml:lang="sk">Integrácia s webovým prehliadačom Konqueror.</li>
+      <li xml:lang="sl">Integracija s spletnim brskalnikom Konqueror.</li>
+      <li xml:lang="sv">Integrering i webbläsaren Konqueror.</li>
+      <li xml:lang="uk">Інтеграція із програмою для перегляду сторінок інтернету Konqueror.</li>
+      <li xml:lang="x-test">xxIntegration with the Konqueror web browser.xx</li>
+      <li xml:lang="zh-CN">Konqueror 网页浏览器集成。</li>
+      <li xml:lang="zh-TW">能與 Konqueror 網頁瀏覽器整合。</li>
+      <li>Metalink support which contain multiple URLs for downloads, along with checksums and other information.</li>
+      <li xml:lang="ast">Sofitu pa metaenllaces que contienen munches URLs pa descargues, xunto coles sumes de comprobación y otra información.</li>
+      <li xml:lang="ca">Admet el «Metalink», el qual conté múltiples URL per a baixades, juntament amb les sumes de verificació i altra informació.</li>
+      <li xml:lang="ca-valencia">Admet el «Metalink», el qual conté múltiples URL per a baixades, juntament amb les sumes de verificació i altra informació.</li>
+      <li xml:lang="da">Understøttelse af metalink med flere URL'er til downloads, samt checksumme og andre informationer.</li>
+      <li xml:lang="de">Unterstützung für Metalinks, die mehrere Adressen (Urls) zum Herunterladen enthalten, zusammen mit Prüfsummen und weiteren Informationen.</li>
+      <li xml:lang="el">Υποστήριξη Metalink, η οποία περιέχει πολλά URL για λήψη, μαζί με αθροίσματα ελέγχου και άλλες πληροφορίες.</li>
+      <li xml:lang="en-GB">Metalink support which contain multiple URLs for downloads, along with checksums and other information.</li>
+      <li xml:lang="es">Permite usar Metalink, que contiene múltiples URL para las descargas, además de sumas de verificación y otra información.</li>
+      <li xml:lang="et">Metalinki toetus, mis sisaldab mitmeid URL-e allalaadimiseks ühes kontrollsummade ja muu teabega.</li>
+      <li xml:lang="eu">«Metalink» onartzen du, jaisteko URL ugari ditu, egiaztapen-batura eta beste informazio batzuekin batera.</li>
+      <li xml:lang="fi">Tukee metalinkkejä, jotka sisältävät useampia latauslinkkejä tarkistussummineen ja muine tietoineen.</li>
+      <li xml:lang="fr">Prise en charge des méta-liens contenant plusieurs URL de téléchargement, des sommes de contrôle et d'autres informations.</li>
+      <li xml:lang="gl">Compatibilidade con metaligazóns que conteñen varios enderezos URL de descarga, xunto con sumas de comprobación e outra información.</li>
+      <li xml:lang="ia">Supporto de metalink que contine URLs multiple per discargamentos, preter checksums e altere information.</li>
+      <li xml:lang="id">Dukungan Metalink yang terdiri dari banyak bagian URL untuk unduh-an, bersamaan dengan checksums dan informasi lain.</li>
+      <li xml:lang="it">Supporto per Metalink che contiene diversi URL da scaricare, oltre a codici di controllo ed altre informazioni.</li>
+      <li xml:lang="ko">다운로드 URL 여러 개 및 체크섬 등 정보가 들어 있는 Metalink를 지원합니다.</li>
+      <li xml:lang="nl">Ondersteuning van Metalink die meerdere URL's voor downloads bevat, samen met controlesommen en andere informatie.</li>
+      <li xml:lang="pl">Obsługa metałączy, które zawierają wiele adresów URL do pobrania, wraz z sumami sprawdzającymi i innymi informacjami.</li>
+      <li xml:lang="pt">Suporte para 'metalink', o qual contém vários URL's para as transferências, em conjunto com os códigos de validação e outras informações.</li>
+      <li xml:lang="pt-BR">Suporte a metalink, que contém várias URLs para os downloads, em conjunto com os códigos de verificação e outras informações.</li>
+      <li xml:lang="sk">Podpora Metalink, ktorá obsahuje viac URL na stiahnutie, spolu s kontrolnými súčtami a ďalšími informáciami.</li>
+      <li xml:lang="sl">Podpora za Metalink, ki vsebuje več spletnih naslovov za prenos, skupaj s kontrolnimi vsotami in drugimi informacijami.</li>
+      <li xml:lang="sv">Stör för metalänkar som innehåller flera webbadresser för nerladdning, tillsammans med checksummor och annan information.</li>
+      <li xml:lang="uk">Підтримка метапосилань, які містять декілька адрес даних, а також контрольні суми та інші відомості.</li>
+      <li xml:lang="x-test">xxMetalink support which contain multiple URLs for downloads, along with checksums and other information.xx</li>
+      <li xml:lang="zh-CN">支持 Metalink ，包含多个下载连接，校验和和其他信息。</li>
+      <li xml:lang="zh-TW">中繼連結 (Metalink) 支援，其能包含多個欲下載 URL、檢查總和值和提供其他資訊。</li>
+    </ul>
+  </description>
+  <url type="bugtracker">https://bugs.kde.org/enter_bug.cgi?format=guided&amp;product=kget</url>
+  <url type="donation">https://www.kde.org/community/donations/?app=kget&amp;source=appdata</url>
+  <url type="help">https://docs.kde.org/?application=kget</url>
+  <url type="homepage">https://www.kde.org/applications/internet/kget/</url>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Downloading files with KGet</caption>
+      <caption xml:lang="ast">Descarga de ficheros con KGet</caption>
+      <caption xml:lang="ca">Baixada de fitxers amb el KGet</caption>
+      <caption xml:lang="ca-valencia">Baixada de fitxers amb el KGet</caption>
+      <caption xml:lang="cs">Stahuji soubory KGet</caption>
+      <caption xml:lang="da">Downloader filer med KGet</caption>
+      <caption xml:lang="de">Herunterladen von Dateien mit KGet</caption>
+      <caption xml:lang="el">Λήψη αρχείων με το KGet</caption>
+      <caption xml:lang="en-GB">Downloading files with KGet</caption>
+      <caption xml:lang="es">Descargando archivos con KGet</caption>
+      <caption xml:lang="et">Failide allalaadimine KGetiga</caption>
+      <caption xml:lang="eu">Fitxategiak KGet erabiliz jaistea</caption>
+      <caption xml:lang="fi">Tiedostojen lataaminen KGetillä</caption>
+      <caption xml:lang="fr">Téléchargement de fichiers avec KGet</caption>
+      <caption xml:lang="gl">Descargando os ficheiros con KGet</caption>
+      <caption xml:lang="ia">Discargante files con KGet</caption>
+      <caption xml:lang="id">Mengunduh file-file menggunakan KGet</caption>
+      <caption xml:lang="it">Scaricamento di file con KGet</caption>
+      <caption xml:lang="ko">KGet으로 파일 다운로드</caption>
+      <caption xml:lang="nl">Bestanden worden gedownload met KGet</caption>
+      <caption xml:lang="pl">Pobieranie plików w KGet</caption>
+      <caption xml:lang="pt">Transferência de ficheiros com o KGet</caption>
+      <caption xml:lang="pt-BR">Baixando arquivos com o KGet</caption>
+      <caption xml:lang="sk">Sťahovanie súborov s KGet</caption>
+      <caption xml:lang="sl">Prenos datotek s programom KGet</caption>
+      <caption xml:lang="sv">Nerladdning av filer med Kget</caption>
+      <caption xml:lang="uk">Отримання файлів за допомогою KGet</caption>
+      <caption xml:lang="x-test">xxDownloading files with KGetxx</caption>
+      <caption xml:lang="zh-CN">使用 KGet 下载文件</caption>
+      <caption xml:lang="zh-TW">使用 KGet 下載檔案</caption>
+      <image>https://www.kde.org/images/screenshots/kget.png</image>
+    </screenshot>
+  </screenshots>
+  <project_group>KDE</project_group>
+  <provides>
+    <binary>kget</binary>
+  </provides>
+  <launchable type="desktop-id">org.kde.kget.desktop</launchable>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="21.08.0" date="2021-08-12"/>
+    <release version="21.04.3" date="2021-07-08"/>
+    <release version="21.04.2" date="2021-06-10"/>
+    <release version="21.04.1" date="2021-05-13"/>
+  </releases>
+</component>

@@ -1,0 +1,3 @@
+# Replace them with symlinks
+/usr/share/javascript/mootools/mootools-core-yc.js usr/share/kget/www/mootools-core-yc.js
+/usr/share/javascript/mootools/mootools-more.js usr/share/kget/www/mootools-more.js

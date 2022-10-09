@@ -1,0 +1,587 @@
+kget (4:21.08.0-1) unstable; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.08.0).
+
+ -- Norbert Preining <norbert@preining.info>  Mon, 16 Aug 2021 16:12:21 +0900
+
+kget (4:21.04.0-1) experimental; urgency=medium
+
+  [ Norbert Preining ]
+  * New upstream release (21.04.0).
+  * Drop Kubuntu from maintainer name.
+  * Added myself to the uploaders.
+
+ -- Norbert Preining <norbert@preining.info>  Tue, 27 Apr 2021 18:43:37 +0900
+
+kget (4:20.12.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Update upstream GPG signing key.
+  * Use execute_after_dh_auto_install to avoid invoking dh_auto_install
+    manually.
+
+ -- Pino Toscano <pino@debian.org>  Thu, 04 Feb 2021 14:09:08 +0100
+
+kget (4:20.12.1-1) unstable; urgency=medium
+
+  * New upstream release (20.12.1).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 08 Jan 2021 13:52:19 +0100
+
+kget (4:20.12.0-1) unstable; urgency=medium
+
+  * New upstream release (20.12.0).
+  * Refresh copyright information.
+  * Bump Standards-Version to 4.5.1, no change required.
+  * Refresh upstream metadata.
+  * Update project homepage.
+  * Removed Eshat Cakar, George Kiagiadakis, Maximiliano Curia, Modestas
+    Vainius from the uploaders, thanks for your work on the package!
+  * Added myself to the uploaders.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 02 Jan 2021 13:11:14 +0100
+
+kget (4:20.08.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release (20.08.2).
+  * Refresh copyright information: project metadata is FSF All Permissive.
+  * Build with hardening=+all build hardening flag.
+  * Refresh upstream metadata.
+  * Borrow minimal upstream signing key from k3b.
+  * Add description and metadata to the patch removing the embedded mootools
+    copies from the package.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Thu, 29 Oct 2020 22:50:08 +0100
+
+kget (4:20.08.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+
+ -- Pino Toscano <pino@debian.org>  Thu, 03 Sep 2020 17:13:34 +0200
+
+kget (4:20.04.3-1) unstable; urgency=medium
+
+  * Team upload,
+  * New upstream release.
+  * Bump the debhelper compatibility to 13:
+    - switch the debhelper-compat build dependency to 13
+  * CI: disable the build path variations in reprotest.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 07 Aug 2020 22:15:22 +0200
+
+kget (4:20.04.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Switch from dhmk to the dh sequencer:
+    - invoke the dh sequencer using the kf5 addon
+    - call the right debhelper command instead of $(overridden_command)
+    - manually force the generation of the substvars for the kde-l10n breaks
+    - add an empty override for dh_auto_test (the test suite is already not
+      built)
+  * Bump the debhelper compatibility to 12:
+    - switch the debhelper build dependency to debhelper-compat 12
+    - remove debian/compat
+  * Add Rules-Requires-Root: no.
+  * Bump Standards-Version to 4.5.0, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 13 Jun 2020 09:33:38 +0200
+
+kget (4:19.12.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Update watch file to the new release-service location.
+  * Add the configuration for the CI on salsa.
+  * Update the build dependencies according to the upstream build system:
+    - bump KF packages to 5.55.0
+    - remove libkf5solid-dev
+    - add libkf5crash-dev
+    - explicitly add gettext
+  * Unregister kget.categories as conffile, as it is no more in /etc.
+  * Bump Standards-Version to 4.4.1, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Wed, 08 Jan 2020 23:25:44 +0100
+
+kget (4:18.12.0-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Sandro Knauß ]
+  * New upstream release (18.04.1).
+  * Add upstream signing key.
+  * Update build-deps and deps with the info from cmake
+  * Remove not needed Build-Dependencies.
+  * Update copyright file for new upstream.
+
+  [ Pino Toscano ]
+  * New upstream release.
+  * Update the build dependencies:
+    - bump all the Qt ones to >= 5.7.0
+    - bump all the KF5 ones to >= 5.44.0
+  * Bump Standards-Version to 4.3.0, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Wed, 26 Dec 2018 15:50:32 +0100
+
+kget (4:18.04.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Add the plasma-workspace-dev build dependency on Linux only, to enable the
+    integration with the workspace.
+  * Bump the debhelper compatibility to 11:
+    - bump the debhelper build dependency to 11~
+    - bump compat to 11
+  * Switch Vcs-* fields to salsa.debian.org.
+  * Bump Standards-Version to 4.1.4, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 08 May 2018 10:56:35 +0200
+
+kget (4:17.12.2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release:
+    - switches to Qt5/KF5 (Closes: #874958)
+  * Update the build dependencies following the port to Frameworks:
+    - remove kde-sc-dev-latest, kdelibs5-dev, and libqca2-dev
+    - add extra-cmake-modules, qtbase5-dev, libqt5svg5-dev,
+      libkf5completion-dev, libkf5config-dev, libkf5configwidgets-dev,
+      libkf5coreaddons-dev, libkf5dbusaddons-dev, libkf5doctools-dev,
+      libkf5i18n-dev, libkf5iconthemes-dev, libkf5itemviews-dev,
+      libkf5kcmutils-dev, libkf5kdelibs4support-dev, libkf5kio-dev,
+      libkf5notifications-dev, libkf5notifyconfig-dev, libkf5parts-dev,
+      libkf5service-dev, libkf5solid-dev, libkf5textwidgets-dev,
+      libkf5wallet-dev, libkf5widgetsaddons-dev, libkf5windowsystem-dev,
+      libkf5xmlgui-dev, and libqca-qt5-2-dev
+  * Update the other build dependencies:
+    - add libgpgmepp-dev, and libktorrent-dev, used by the new version
+    - add libgpgme-dev to workaround a missing dependency in libgpgmepp-dev
+  * Use the right makefile class:
+    - use debian-qt-kde.mk v3
+    - bump the pkg-kde-tools build dependency to >= 0.15.16
+  * Switch the cmake parameter -DKDE4_BUILD_TESTS=OFF to -DBUILD_TESTING=OFF,
+    as this is what ECM provides.
+  * Update paths with the local mootools js files to replace.
+  * Update the patches:
+    - minified_file: refresh
+    - disable-plasma.diff: drop, no more needed now
+  * Break/replace against kde-l10n that ships translations.
+  * Do not ship the translations of the unported Plasma components.
+  * Update lintian overrides.
+  * Use https for Format in copyright.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 20 Feb 2018 21:18:24 +0100
+
+kget (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Maximiliano Curia ]
+  * Update uploaders list as requested by MIA team (Closes: #879341)
+
+  [ Pino Toscano ]
+  * New upstream release.
+  * Bump Standards-Version to 4.1.3, no changes required.
+  * Simplify watch file, and switch it to https.
+  * Update lintian overrides.
+
+ -- Pino Toscano <pino@debian.org>  Thu, 11 Jan 2018 09:24:44 +0100
+
+kget (4:16.08.0-4) unstable; urgency=medium
+
+  * Team upload.
+  * Drop the libgpgme11-dev build dependency, since it is not used.
+  * Pass -DKDE4_BUILD_TESTS=OFF to cmake to disable the build of unit tests,
+    since they are not run anyway.
+  * Update the patches:
+    - disable_kget_test_transfers: drop, only for not run unit tests (and with
+      unclear status and reasons)
+    - disable_kget-verifiertest: drop, only for not run unit tests (and with
+      unclear status and reasons)
+    - kget_testjob_finished_stays: drop, only for not run unit tests (and with
+      unclear status and reasons)
+  * Bump Standards-Version to 4.1.0, no changes required.
+
+ -- Pino Toscano <pino@debian.org>  Thu, 07 Sep 2017 08:38:07 +0200
+
+kget (4:16.08.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Update the build dependencies:
+    - drop libktorrent-dev to disable the torrent support, since libktorrent
+      is currently updated to the KF5 version
+    - drop libsoprano-dev, and shared-desktop-ontologies, as the Nepomuk
+      support was dropped long ago
+  * Disable the build of applets and runner for Plasma4 since they are not
+    useful without a Plasma4 environment; patch disable-plasma.diff.
+
+ -- Pino Toscano <pino@debian.org>  Tue, 05 Sep 2017 21:00:10 +0200
+
+kget (4:16.08.0-2) unstable; urgency=medium
+
+  * New upstream release (16.08.0)
+  * Disable kdepimlibs build dependency
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 18 Oct 2016 23:56:58 +0200
+
+kget (4:16.08.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Stop forcing the local installation to debian/tmp, letting the package
+    directory as install place.
+    - manually remove only the files (i.e. .so symlinks) that are not needed
+    - remove get.install, no more used now
+    - remove not-installed file, no more used now
+  * Remove unused dh_auto_configure override (does nothing more than the tool
+    itself).
+
+ -- Pino Toscano <pino@debian.org>  Sat, 27 Aug 2016 23:40:05 +0200
+
+kget (4:15.12.1-2) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 18:15:02 +0200
+
+kget (4:15.12.1-1) experimental; urgency=medium
+
+  * New upstream release (15.12.1).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:24:15 +0100
+
+kget (4:15.08.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream release (15.04.0+dfsg).
+  * New upstream release (15.04.2+dfsg).
+  * New upstream release (15.08.0+dfsg).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 31 Aug 2015 17:24:17 +0200
+
+kget (4:14.12.3+dfsg-1) experimental; urgency=medium
+
+  * New upstream release (14.12.3+dfsg).
+  * New patch: minified_file
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 29 Mar 2015 15:13:11 +0200
+
+kget (4:14.12.3-0ubuntu1) vivid; urgency=medium
+
+  * Add back kdepimlibs parent version depend.
+  * New upstream release
+  * Fix kdepimlibs version in build depends.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:41:31 -0700
+
+kget (4:14.12.2+dfsg-1) experimental; urgency=medium
+
+  * New upstream release (14.12.2+dfsg).
+
+  [ Scarlett Clark ]
+  * Add back kdepimlibs parent version depend.
+
+  [ Maximiliano Curia ]
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 Feb 2015 12:57:45 +0100
+
+kget (4:14.12.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 10 Feb 2015 08:11:03 -0800
+
+kget (4:14.12.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Remove kdelibs5-dev depend version as there was not a new release.
+  * Remove kdepimlibs5-dev depend version as there was not a new release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 15:59:13 +0100
+
+kget (4:14.11.97-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release candidate
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 02 Dec 2014 20:56:27 -0800
+
+kget (4:14.11.95-0ubuntu1) vivid; urgency=medium
+
+  * Initial release for KDE applications 14.12 series
+   - Change maintainer to Debian/Kubuntu
+   - Fix Watch file applications locations
+   - Fix VCS for new kde-applications location
+   - Remove depend on  kde-workspace-dev which is not available
+     in this series.
+   -
+  * Debian merge, remaining changes:
+   - Change 'MIT/X11 (BSD like) to MIT-X11-BSD-like to make lintian happy.
+   - Move prune-nonfree to dh_links as it was not functioning and
+     installing the minified js, triggering lintian.
+   - Add not-installed for missing libkgetcore.so - there is
+     no -dev package.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 25 Nov 2014 15:26:03 +0000
+
+kget (4:4.14.2-0ubuntu2) vivid; urgency=medium
+
+  * Remove kde-workspace-dev build-dep, no longer in archive
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 07 Nov 2014 16:23:17 +0100
+
+kget (4:4.14.2-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+  * Change 'MIT/X11 (BSD like) to MIT-X11-BSD-like to make lintian happy.
+  * Add mootools lintian to override as it is linked in prune:non-free
+    in rules file.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 04:53:00 -0700
+
+kget (4:4.14.1-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 17:13:42 +0200
+
+kget (4:4.14.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update build dependencies.
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 25 Aug 2014 01:17:50 +0200
+
+kget (4:4.14.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Aug 2014 13:07:56 +0200
+
+kget (4:4.13.97-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release RC
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 01 Aug 2014 16:46:09 +0200
+
+kget (4:4.13.95-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 30 Jul 2014 18:14:36 +0200
+
+kget (4:4.13.90-0ubuntu1) utopic; urgency=medium
+
+  * New upstream beta release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Thu, 24 Jul 2014 23:06:14 +0200
+
+kget (4:4.13.2-0ubuntu1) utopic; urgency=medium
+
+  * new upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Jun 2014 11:57:11 +0100
+
+kget (4:4.13.1+dfsg-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 May 2014 14:25:42 +0200
+
+kget (4:4.13.0-0ubuntu4) utopic; urgency=medium
+
+  * Debian merge, remaining changes:
+   - Removed nepomuk due to build failure and EOL
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 14 May 2014 08:49:40 -0700
+
+kget (4:4.13.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream KDE Software Compilation release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 10 Apr 2014 22:02:51 +0100
+
+kget (4:4.12.97-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release candidate
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 02 Apr 2014 11:26:28 +0200
+
+kget (4:4.12.95-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sun, 23 Mar 2014 12:28:15 +0100
+
+kget (4:4.12.90-0ubuntu2) trusty; urgency=medium
+
+  * Drop libnepomukwidgets-dev from build-depends, obsolete
+  * Remove obsolete nepomuk ontologies from kget.install
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Thu, 20 Mar 2014 14:13:47 +0100
+
+kget (4:4.12.90-0ubuntu1) trusty; urgency=medium
+
+  * New upstream beta release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 19 Mar 2014 10:57:17 +0000
+
+kget (4:4.12.3+dfsg-2) unstable; urgency=medium
+
+  * Release to unstable
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Apr 2014 12:25:27 +0200
+
+kget (4:4.12.3+dfsg-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 04 Mar 2014 00:06:21 +0100
+
+kget (4:4.12.3-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Mar 2014 20:48:22 +0100
+
+kget (4:4.12.2+dfsg-1) experimental; urgency=low
+
+  [ Pino Toscano ]
+  * Add the pkg-config build dependency.
+  * Depend on ${perl:Depends} too.
+
+  [ Maximiliano Curia ]
+  * Bump Standards-Version to 3.9.5, no changes needed.
+  * Add autopkgtests.
+  * New patch: disable_kget_test_transfers
+  * New patch: disable_kget-verifiertest
+  * New upstream release.
+  * New patch: kget_testjob_finished_stays
+  * Bump kde-sc-dev-latest build dependency.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Feb 2014 11:32:32 +0100
+
+kget (4:4.12.2-0ubuntu1) trusty; urgency=medium
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 04 Feb 2014 23:59:55 +0000
+
+kget (4:4.12.1-0ubuntu1) trusty; urgency=low
+
+  * New upstream bugfix release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Thu, 16 Jan 2014 08:17:23 +0000
+
+kget (4:4.12.0-0ubuntu2) trusty; urgency=medium
+
+  * Build-depend on the unversioned libboost-dev.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Mon, 23 Dec 2013 18:40:43 +0000
+
+kget (4:4.12.0-0ubuntu1) trusty; urgency=low
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 18 Dec 2013 17:07:06 +0000
+
+kget (4:4.11.97-0ubuntu1) trusty; urgency=low
+
+  * New upstream RC release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 29 Nov 2013 13:08:48 +0000
+
+kget (4:4.11.95-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Mon, 25 Nov 2013 18:05:24 +0100
+
+kget (4:4.11.80-0ubuntu1) trusty; urgency=low
+
+  * New upstream beta release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Sat, 23 Nov 2013 17:40:41 +0100
+
+kget (4:4.11.3+dfsg-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build dependencies.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 10 Nov 2013 11:02:21 +0100
+
+kget (4:4.11.2+dfsg-1) experimental; urgency=low
+
+  * First release of kdenetwork after being split by upstream.
+  * Add debian version mangle to the watch file.
+  * Missing + in the copyright file.
+  * Update build-dependencies.
+  * Add missing debian/source directory.
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Oct 2013 14:09:26 +0200
+
+kget (4:4.11.2-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 30 Sep 2013 14:24:51 +0100
+
+kget (4:4.11.1-0ubuntu2) saucy; urgency=low
+
+  * Add missing files to kget.install
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Sun, 08 Sep 2013 21:12:26 +0200
+
+kget (4:4.11.1-0ubuntu1) saucy; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Philip Muškovac <yofel@kubuntu.org>  Fri, 06 Sep 2013 22:22:54 +0100
+
+kget (4:4.11.0-0ubuntu1) saucy; urgency=low
+
+  [ Howard Chan ]
+  * New upstream release
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 14 Aug 2013 00:15:43 +0100
+
+kget (4:4.10.97-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC 2 release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 26 Jul 2013 19:34:45 +0100
+
+kget (4:4.10.95-0ubuntu1) saucy; urgency=low
+
+  * New upstream RC release
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 19 Jul 2013 12:32:29 +0000
+
+kget (4:4.10.90-0ubuntu1) saucy; urgency=low
+
+  [ Jonathan Riddell ]
+  * tidy not-installed
+
+  [ Michał Zając ]
+  * New upstream bet release
+
+ -- Michał Zając <quintasan@kubuntu.org>  Fri, 28 Jun 2013 18:13:35 +0100
+
+kget (4:4.10.80-0ubuntu1) saucy; urgency=low
+
+  * New upstream release
+  * Initial package split from kdenetwork
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 21 Jun 2013 02:25:26 +0100

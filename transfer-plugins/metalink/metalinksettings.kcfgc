@@ -1,0 +1,5 @@
+ClassName=MetalinkSettings
+File=kget_metalinkfactory.kcfg
+Mutators=true
+Singleton=true
+Visibility=Q_DECL_EXPORT

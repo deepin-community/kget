@@ -1,0 +1,4 @@
+# private library
+kget: package-name-doesnt-match-sonames libkgetcore5
+# private library
+kget: no-symbols-control-file

@@ -1,0 +1,17 @@
+Description: Remove embedded copies of moootools
+ This patch removes embedded copies of mootools as we’re using the debian
+ packaged version instead.
+Forwarded: not-needed
+Author: Maximiliano Curia <maxy@gnuservers.com.ar>
+Last-Update: 2018-02-10
+
+--- a/extensions/webinterface/www/CMakeLists.txt
++++ b/extensions/webinterface/www/CMakeLists.txt
+@@ -1,7 +1,5 @@
+ set(www_data
+     index.htm
+-    mootools-core-yc.js
+-    mootools-more.js
+     favicon.ico
+     header-background.png
+     header-separator.png

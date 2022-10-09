@@ -1,0 +1,63 @@
+Source: kget
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+           Sune Vuorela <sune@debian.org>,
+Build-Depends: cmake (>= 3.16~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.83.0~),
+               gettext,
+               libboost-dev,
+               libgpgme-dev,
+               libgpgmepp-dev (>= 1.7.0~),
+               libkf5completion-dev (>= 5.83.0~),
+               libkf5config-dev (>= 5.83.0~),
+               libkf5configwidgets-dev (>= 5.83.0~),
+               libkf5coreaddons-dev (>= 5.83.0~),
+               libkf5crash-dev (>= 5.83.0~),
+               libkf5dbusaddons-dev (>= 5.83.0~),
+               libkf5doctools-dev (>= 5.83.0~),
+               libkf5i18n-dev (>= 5.83.0~),
+               libkf5iconthemes-dev (>= 5.83.0~),
+               libkf5itemviews-dev (>= 5.83.0~),
+               libkf5kcmutils-dev (>= 5.83.0~),
+               libkf5kdelibs4support-dev (>= 5.83.0~),
+               libkf5kio-dev (>= 5.83.0~),
+               libkf5notifications-dev (>= 5.83.0~),
+               libkf5notifyconfig-dev (>= 5.83.0~),
+               libkf5parts-dev (>= 5.83.0~),
+               libkf5service-dev (>= 5.83.0~),
+               libkf5textwidgets-dev (>= 5.83.0~),
+               libkf5wallet-dev (>= 5.83.0~),
+               libkf5widgetsaddons-dev (>= 5.83.0~),
+               libkf5windowsystem-dev (>= 5.83.0~),
+               libkf5xmlgui-dev (>= 5.83.0~),
+               libktorrent-dev (>= 21.07.70~),
+               libmms-dev,
+               libqca-qt5-2-dev (>= 2.1.0~),
+               libsqlite3-dev,
+               pkg-config,
+               pkg-kde-tools (>= 0.15.16),
+               plasma-workspace-dev [linux-any],
+               qtbase5-dev (>= 5.15.0~),
+Standards-Version: 4.5.1
+Rules-Requires-Root: no
+Homepage: https://apps.kde.org/en/kget
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kget
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kget.git
+
+Package: kget
+Section: net
+Architecture: any
+Depends: libjs-mootools, ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Suggests: khelpcenter
+Breaks: ${kde-l10n:all}
+Replaces: ${kde-l10n:all}
+Description: download manager
+ KGet is an advanced download manager with support for Metalink and Bittorrent.
+ Downloads are added to the list, where they can be paused, queued, or
+ scheduled for later.
+ .
+ This package is part of the KDE networking module.
